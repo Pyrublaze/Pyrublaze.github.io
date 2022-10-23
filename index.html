@@ -41,6 +41,44 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
 </style>
 </head>
 <body>
@@ -73,6 +111,54 @@ body {
   <h2 id="Racial_Issues">Racial Issues</h2>
   <h2 id="Gender_Issues">Gender Issues</h2>
   <h2 id="Economics">Economics</h2>
+  <ul id="myUL">
+  <li><span class="caret">Economic Systems</span>
+    <ul class="nested">
+      <li>Worker Ownership</li>
+      <li><span class="caret">Capitalism and Socialism</span>
+        <ul class="nested">
+          <li>Efficiency</li>
+          <li>Quality of Life</li>
+          <li>Democracy and Freedom</li>
+          <li>Other Issues</li>
+          <li><span class="caret">By Location</span>
+            <ul class="nested">
+              <li>Nazi Germany</li>
+              <li>United States</li>
+              <li>Soviet Union</li>
+              <li>Cuba</li>
+              <li>China</li>
+              <li>Latin America (General)</li>
+              <li>Mexico</li>
+              <li>Nicaragua</li>
+              <li>North Korea</li>
+              <li>Venezuela</li>
+              <li>Vietnam</li>
+              <li>Xiaogang</li>
+            </ul>
+          </li>
+        </ul>
+      </li>  
+    </ul>
+  </li>
+</ul>
+  <ul id="myUL">
+  <li><span class="caret">Health and Welfare Economics</span>
+    <ul class="nested">
+      <li>Poverty/Food Insecurity</li>
+      <li>Inequality/Income Mobility</li>
+      <li><span class="caret">Welfare</span>
+        <ul class="nested">
+          <li>General</li>
+          <li>Work</li>
+          <li>Economic Growth</li>
+            </ul>
+       <li>Healthcare</li>
+       <li>Housing</li>
+       <li>Social Wealth Fund</li>
+        </ul>
+      </li>  
+    </ul>
   <h2 id="Sociology">Sociology</h2>
   <h2 id="Climate_Change">Climate Change</h2>
   <h2 id="Psychology_and_Biology">Psychology and Biology</h2>
@@ -87,7 +173,18 @@ body {
   <h2 id="Statistics">Statistics</h2>
   <h2 id="Institutionalism">Institutionalism</h2>
   <h2 id="Misc">Misc</h2>
+
 </div>
-   
+<script>
+var toggler = document.getElementsByClassName("caret");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+</script>
 </body>
 </html> 
