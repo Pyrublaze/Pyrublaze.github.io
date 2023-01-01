@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Race and Employment Discrimination</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>Meta-analytical evidence suggests that identical resumes sent to employers, with the only difference in resume being name, result in different rates of callbacks, with resumes with white-sounding names getting more callbacks than resumes with black or Latino-sounding names.</strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.pnas.org/content/114/41/10870" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Meta-analysis of field experiments shows no change in racial discrimination in hiring over time</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Meta-analysis of 28 studies</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that since 1989, whites on average receive 36% more callbacks from job applications than African Americans, and 24% more callbacks than Latinos</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">There was no change in the 25 years for African Americans, but there was for Latinos.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.tandfonline.com/doi/abs/10.1080/1369183X.2015.1133279?journalCode=cjms20" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Ethnic discrimination in hiring decisions: a meta-analysis of correspondence tests 1990&ndash;2015</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Meta-analysis of 43 studies</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds substantive evidence of racial discrimination in hiring against minority applicants of all races, and is also robust to the generation of an immigrant.</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh5.googleusercontent.com/xThuvuwZRQ0mYH6xJ3QjVUe41Cb9Vg3jlnyys_FmyPdMpbFFYyca8_4jhaeztBS0oQc6OsxZrW-4NHQ_vz-oETabQpyXb_iyawfkgZCC6XeKKMfRzejIzYFvhQlIvkH1P9iGDoyTrITiG5flfBoTPHnqWE1419pXKDNOMRWZ3BMKYnz1iIiffO6byz_G" style="height:415px; width:513px" /></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>There is a slight publication bias in favor of more extreme results, so most studies tend to overestimate this effect, but it&rsquo;s not substantial enough to nullify the effect once controlled for.</strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.tandfonline.com/doi/abs/10.1080/1369183X.2015.1133279?journalCode=cjms20" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Ethnic discrimination in hiring decisions: a meta-analysis of correspondence tests 1990&ndash;2015</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">There is publication bias in the literature, as shown by the graph below (black dots are individual studies and white dots are results needed to balance the picture</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh5.googleusercontent.com/hYt-bWTUxCFCcovWYVn5D7hX92VhnzkofoBugYeQtmc3eYTnXzRHGR7jUMBBUQoFpOjBIFUuvNo6zjtA5S76roICD0aST8kMtaYdf-8g1dszARHzMXS--H2rYy1PQtFnTGyHaK83hq14vdc1QuDzPyfohOslGGFKgHijreZH_Oe5NXTWfrgubymf6j9FPA" style="height:366px; width:453px" /></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>Some have theorized that rather than this discrimination being due to irrational biases on the part of employers, it is instead due to employers using race as a proxy for unobservable characteristics which also affect an individual&rsquo;s job performance beyond what is included on a resume. There is some evidence for this hypothesis being true, but it doesn&rsquo;t seem to account for all of the discrimination observed. Covariates such as the inclusion of a criminal record don&rsquo;t appear to substantially affect the results, which one would expect to decrease the disparity if the statistical discrimination hypothesis was true. Some data which looks at variations in resume quality and increases in data in general also reveal a similar pattern, although this is contradicted by other evidence. This suggests there may be some statistical discrimination at play but it does not account for the totality of the explanation for the hiring gap.</strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.tandfonline.com/doi/abs/10.1080/1369183X.2015.1133279?journalCode=cjms20" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Ethnic discrimination in hiring decisions: a meta-analysis of correspondence tests 1990&ndash;2015</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Given the similar hiring decisions for immigrants of different generations, this suggests that there is taste-based discrimination</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">However, statistical discrimination also appears to play a role, as shown by differences in German-speaking countries where more extensive application material is the norm and from public sector employers where application material is more standardized, there is more attention to diversity, and non-discriminatory hiring practices are often explicitly sought.</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh4.googleusercontent.com/-RvYCSyy1ByVXOuprXFb3sJGP4jD9gK5huEBGryxUR17ofvinLHpZXPBA1MFqDjaxG33bGQlHjqi1YlmHuRINnq4GozDe4SwnYSAU7XsIMggJ5iPtEOpp3Q9DiHF2fX7VN4co-jTbG6Ifdbcv_j2K2ssJg5kp-DX857JOudtNVyuv5RHy1bIiwQjA7Zg" style="height:131px; width:624px" /></span></span></span></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh5.googleusercontent.com/dsX3k_Drp7yKAvLI8vPRXJ_aL7sC7OCiUNC_M7WbuhH8cUX3CVyR47SFB9k__QXiZmzy_m8jQ1Zr-H7ftaCSlgZuHqvqeDgzoljpnKYO6PXUuaY0IRruWrW95-EZIAxg3eOOIGKdZ6dLXgxDMRo7fI7JzM_RhPUUr7XG1KRp6kYgr7vbMsgxy_NPyYS_" style="height:131px; width:624px" /></span></span></span></p>
+
+<p><a href="https://www.pnas.org/content/114/41/10870" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Meta-analysis of field experiments shows no change in racial discrimination in hiring over time</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">An appendix looked at how covariates, such as criminal record could affect the results, and concluded that </span></span><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Excluding auditors with criminal records and limiting our study to only resume audit studies both produce no trend in discrimination ratios for African-Americans. We conclude that there are no trends in the covariates that appear potentially problematic for our results.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://academic.oup.com/sf/article/99/2/732/5816667" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Evidence from Field Experiments in Hiring Shows Substantial Additional Racial Discrimination after the Callback</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&quot;Our results also provide evidence against the view that most racial discrimination in hiring reflects statistical discrimination, at least on the characteristics employers can assess during an interview. If the main reason employers discriminate is statistical, employers should be less likely to rely on group stereotypes in drawing conclusions about applicants as their information about an individual applicant increases. In interviews, employers receive additional information regarding (at least) the dress, appearance and demeanor of applicants. Yet we find as much discrimination or more from interview to job offer as from application to callback, suggesting that the extra interview information is not significantly counter-acting employer biases.&quot;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.nber.org/papers/w16448" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Detecting Discrimination in Audit and Correspondence Studies</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;This paper shows that if a correspondence study includes observable measures of variation in applicants&rsquo; quality that affect hiring outcomes, an unbiased estimate of discrimination can be recovered even when there are group differences in the variances of the unobservable. The method is applied to Bertrand and Mullainathan&rsquo;s (2004) correspondence study, and leads to stronger evidence of race discrimination that adversely affects blacks than is obtained when differences in the variances of the unobservable are ignored.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>Another piece of evidence for the statistical discrimination hypothesis is how &ldquo;ban the box&rdquo; policies which restrict employers from asking about applicants&rsquo; criminal histories on job applications result in more discrimination happening against minorities, suggesting that decreasing information to employers, through increasing their reliance on unobservable measures of competence in a job, increases statistical discrimination.</strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://law.yale.edu/sites/default/files/area/workshop/leo/leo16_starr.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Ban the Box, Criminal Records, and Statistical Discrimination: A Field Experiment</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Looks at the effect that &ldquo;Ban-the-Box&rdquo; policies (policies which restrict employers from asking about applicants&rsquo; criminal histories on job applications) have on employment discrimination.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that following the implementation of BTB policies in New Jersey and New York City the race gap goes from whites receiving 7% more callbacks than similar black applicants to a 45% difference.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.journals.uchicago.edu/doi/10.1086/705880" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Unintended Consequences of &ldquo;Ban the Box&rdquo;: Statistical Discrimination and Employment Outcomes When Criminal Histories Are Hidden</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;We use variation in the timing of BTB policies to test BTB&rsquo;s effects on employment. We find that BTB policies decrease the probability of employment by 3.4 percentage points (5.1%) for young, low-skilled black men.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>It has been demonstrated that if the effect of improved productivity signals or resumes to employers on hiring is nonlinear, certain ways in which unobserved skills can be distributed between two populations can result in discrimination being shown in studies when it doesn&rsquo;t exist. Unfortunately, this may mean that none of this data definitively demonstrates the existence of racial bias in hiring, although I am intuitively skeptical of the idea that the relationship is nonlinear beyond initial requirements for a job.</strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.jstor.org/stable/2646964?seq=1#metadata_info_tab_contents" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Detecting Discrimination</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Correspondence testing studies presuppose that the effect of improved resume or productivity signals to employers is linear, which it is not necessarily. If it isn&rsquo;t, and there are differences in the variance of productivity between blacks and whites, even assuming the same mean productivity level, then the cutoff might favor blacks or whites even if mean productivity is the same. Given that mean productivity is held constant in correspondence testing studies, it is possible to see differences in callbacks between the two groups even when there is no actual bias at play, and it is impossible to rule this out as a possibility.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>However, the actual influence this has on the results of audit studies must be very large, as evidence has suggested that with identical resumes, a black applicant without a criminal record is less likely to be called back for a job interview than a white applicant with a criminal record, in spite of the fact that a criminal record has a drastic effect on a person&rsquo;s probability of being employed. Because such an effect must be very large, without evidence in favor of an effect even being real it seems reasonable to assume that it likely at least does not eliminate all of the discrimination that is observed in the studies presented above.</strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.journals.uchicago.edu/doi/abs/10.1086/374403" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Mark of a Criminal Record</u></span></span></span></a></p>
+
+<p><a href="https://www.epi.org/publication/webfeatures_snapshots_archive_09172003/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Racial discrimination continues to play a part in hiring decisions</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;mere contact with the criminal justice system, in the absence of any transformative or selective effects, severely limits subsequent employment opportunities.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Blacks are less than half as likely to receive consideration by employers, relative to their white counterparts, and black nonoffenders fall behind even whites with prior felony convictions. The powerful effects of race thus continue to direct employment decisions in ways that contribute to persisting racial inequality&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Except for the differences in race and in criminal record, applicants were given comparable resumes, sent to the same set of employers, and trained to behave similarly in the application process.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The study focused on the likelihood that an applicant would be called back for a job interview. Not surprisingly, whites without a criminal record were most likely to be invited back (34%) and blacks with a criminal record were the least likely (5%). Perhaps most striking, the study found that only 14% of blacks without a criminal record were called back for an interview&mdash;less than the 17% of whites that did have a criminal record.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh4.googleusercontent.com/hcEqCKanPWau7KGJ8asaN-k9UAJYMd7lqMErCALHBrlsrk6hU4338gr8z2VmStpvfX6Q3XwEeuZ9s391Rg8Ff-IR4iY9zFBc-FRgJsAYHKGNXArIFiryrm8eRQ2V6rtRTuPUn-kjza7Zv8sI1PV6WuB-ghg37XdoaQGD9be8wKyT6aMNfAIpLYIl7xUDAw" style="height:328px; width:434px" /></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>Interestingly, there is evidence suggesting that the discrimination occurring is partially class-based, as black-sounding names with a more positive socioeconomic connotation don&rsquo;t appear to be discriminated against. This doesn&rsquo;t disprove that unjust racial discrimination is occurring, but it does suggest that it is concentrated on the intersection between race and class.</strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.sociologicalscience.com/download/vol-4/september/SocSci_v4_469to489.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>How Black Are Lakisha and Jamal? Racial Perceptions from Names Used in Correspondence Audit Studies</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Survey experiment</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that names given more commonly by highly educated black mothers, such as Jalen and Nia, are less likely to be perceived as black than names given by less educated black mothers, such as DaShawn and Tanisha.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This suggests that evidence on racial discrimination operates under a false assumption that all black names are alike.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.tandfonline.com/doi/abs/10.1080/13504851.2015.1114571" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Race and gender effects on employer interest in job applicants: new evidence from a resume field experiment</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Resume experiment</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Assigns names to the resumes that convey race and gender but for which a strong negative socioeconomic connotation is not implicated:</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;We selected last names suggestive of race for black, Hispanic and white applicants. Applicants&rsquo; first names were used to convey gender, and in the case of Hispanic applicants also were indicative of ethnicity. Specifically, we used three female-sounding first names &ndash; Isabella, Megan and Chloe &ndash; and three male-sounding first names &ndash; Brian, Carlos and Ryan. The first names Isabella and Carlos were paired with Hernandez and Garcia to suggest Hispanic origin, while Chloe and Ryan were paired with Washington and Jefferson to indicate an African American applicant. For white applicants, the first names Megan and Brian were paired with Anderson and Thompson.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds little evidence of systematic employer preferences for applicants from particular race or gender groups.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>In response to the discrimination that minorities face in the labor market, many racial minorities attempt to make their resumes more &ldquo;white&rdquo; in appearance. However, when applying for jobs with employers who present themselves as valuing diversity, minorities engage less in this. Unfortunately, organizational diversity statements are not actually associated with reduced discrimination against unwhitened resumes so pro-diversity employers are actually more discriminatory in effect.</strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="http://www-2.rotman.utoronto.ca/facbios/file/Whitening%20MS%20R2%20Accepted.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Whitened R&eacute;sum&eacute;s: Race and Self-Presentation in the Labor Market</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Many racial minorities will engage in the practice of whitening their resumes by concealing or downplaying racial cues in their job applications.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">However, when targeting an employer that presents itself as valuing diversity, minority job applicants engage in relatively little resume whitening, but organizational diversity statements are not actually associated with reduced discrimination against unwhitened resumes</span></span></span></li>
+</ul>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Therefore, minorities may be particularly likely to experience disadvantage when applying to ostensibly pro-diversity employers.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>Further Information:</em></span></span></span></p>
+
+<p><a href="https://wol.iza.org/articles/correspondence-testing-studies" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Correspondence testing studies</u></span></span></span></a></p>
+
+<p><a href="https://www.aeaweb.org/articles?id=10.1257/0002828042002561" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination</u></span></span></span></a></p>
+
+<p><a href="https://hbr.org/2017/10/hiring-discrimination-against-black-americans-hasnt-declined-in-25-years" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Hiring Discrimination Against Black Americans Hasn&rsquo;t Declined in 25 Years</u></span></span></span></a></p>
+
+<p><a href="https://journals.sagepub.com/doi/pdf/10.1177/000312240907400505" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Discrimination in a Low-Wage Labor Market: A Field Experiment</u></span></span></span></a></p>
+
+<p>&nbsp;</p>
+
+
+  </div>
+	</body>
+</html>
