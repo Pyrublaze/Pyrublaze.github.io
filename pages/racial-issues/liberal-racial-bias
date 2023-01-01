@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+/* Insert page content below */
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Liberal Racial Bias</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Liberal Racial bias does exist to a fairly large extent, and it is anti-white in nature, unlike other forms of racial bias. One large manifestation of this is biases in perceptions of information which political liberals have when compared to political conservatives. Political liberals, but not political conservatives are more censorious of anti-minority information when compared to anit-white information, and also view such information as less credible. This is despite the fact that many such individuals themselves believe that they should be unbiased in their judgements.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.researchgate.net/publication/333677484_A_Cross-cultural_Analysis_of_Censorship_on_Campuses" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>A Cross-cultural Analysis of Censorship on Campuses</u></span></span></span></a></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Methods:</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Looked at 595 American participants, who leaned slightly liberal on average</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">They were read a variety of passages, including ones about men/women being better leaders; islam/christianity being violent; and black/white people scoring higher in intelligence tests.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">A second study replicated this in hundreds of college-aged students from the US, UK, and Hungary.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">A meta-analysis was then conducted among all 4 samples</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Results:</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">A more liberal ideology predicted more censorship support for passages that were anti-women, anti-islam, less for anti-christianity, and more for anti-black. All others were identical across ideology.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">The second study broadly replicated these findings.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">The meta-analysis also confirmed these findings</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Moreover, the sensitivity to negative information against low-status groups was also found amongst young conservatives, although to a lesser degree.</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh4.googleusercontent.com/JtCDA4FgENX1t-xISxkU9hdCXopUf1pv0MqYuLNRhTO0d4eAsn-LQeAK433NCCengObn4qoP7O7XsSA2lFGJKZElAZ1yhy9ZIp8NX6jaPIigBh8KgahbujCXTWL77nW3zu1rA3WP3btoIYmHvUlu0AOKDHA5FAZVHMjzfNdjkCmO9NBNI0KKnfyfPvwZRQ" style="height:261px; width:313px" /></span></span></span></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Interpretations:</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This is likely due to an aversion to inequality and protection of low-status groups which are exhibited by political liberals</span></span></span></li>
+</ul>
+
+<p><a href="https://www.researchgate.net/publication/326144740_Low-status_groups_as_a_domain_of_liberal_bias" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Low-status groups as a domain of liberal bias</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that political liberals consistently evaluate a study as less credible when the results conclude that a high-status group (men and whites) had higher intelligence than a lower-status group (women and blacks) than vice versa. Liberals when asked think they should not have such a double standard, yet still do nonetheless.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>This appears to be due to the liberal belief in the existence of discrimination, the rejection of biological group differences, and the belief in the possibility and moral necessity of the pursuit of racial equality in society.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.researchgate.net/publication/325033477_Equalitarianism_A_Source_of_Liberal_Bias" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Equalitarianism: A Source of Liberal Bias</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Here, we demonstrate that Liberals are particularly prone to bias about victims&rsquo; groups (e.g. Blacks, women) and identify a set of beliefs that consistently predict this bias, termed Equalitarianism. Equalitarianism, we believe, stems from an aversion to inequality and a desire to protect relatively low status groups, and includes three interrelated beliefs: (1) demographic groups do not differ biologically; (2) prejudice is ubiquitous and explains existing group disparities; (3) society can, and should, make all groups equal in society. This leads to bias against information that portrays a perceived privileged group more favorably than a perceived victims&rsquo; group.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Liberalism was associated with perceiving certain groups as victims (Studies 1a-1b). In Studies 2-7 and meta-analyses, Liberals evaluated the same study as less credible when the results concluded that a privileged group (men and Whites) had a more desirable quality relative to a victims&rsquo; group (women and Blacks) than vice versa. Ruling out alternative explanations of Bayesian (or other normative) reasoning, significant order effects in within-subjects designs in Studies 6 and 7 suggest that Liberals believe they should not evaluate identical information differently depending on which group is portrayed more favorably, yet do so. In all studies, higher equalitarianism mediated the relationship between more liberal ideology and lower credibility ratings when privileged groups were said to score higher on a socially valuable trait. Although not predicted a priori, meta-analyses also revealed Moderates to be the most balanced in their judgments.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Political liberals are also more likely to endorse consequentialism when the victim in question is white rather than black, which suggests that liberals are more sensitive to sacrificing black people when compared to white people.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://journal.sjdm.org/9616/jdm9616.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The motivated use of moral principles</u></span></span></span></a></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Methods:</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Study 1a used the traditional trolley problem of sacrificing one innocent person to save a group of people, except manipulating the race of individual to be sacrificed. This was then given in the form of a questionnaire to 88 undergraduate students, who were then asked their political affiliation</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Study 1b attempted to replicate this study using a slightly different hypothetical</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Study 2 used the same sample of people in study 1a and put a similar consequentialist problem in the form of 2 questions back to back, with the race of the person being sacrificed manipulated. Then a question of whether race should matter was asked.</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Results:</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">In study 1a liberals were more likely to endorse consequentialism when the victim had a stereotypically white name. Conservatives did not give reliably different endorsements of consequentialism. Similar results were found for study 1b.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">In study 2, reliability of answers between the 2 questions was very high, and everyone said race shouldn&rsquo;t matter</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Other Studies:</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Conservatives were more likely to endorse the unintended killing of innocent civilians when they were Iraqis rather than American, while liberals showed no significant effect</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Moreover, white liberals appear to be more nervous talking to minorities when compared to white people, likely due to a liberal hyper-sensitivity to racism against minority groups.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://psycnet.apa.org/record/2006-22158-006" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Color Blindness and Interracial Interaction: Playing the Political Correctness Game</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that politically correct white people were less likely to talk about race with a minority than with a white person, and this avoidance was associated with less eye contact from whites and appearing less friendly toward black partners.</span></span></span></li>
+</ul>
+
+<p><a href="https://psycnet.apa.org/record/2019-12064-001" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Self-presentation in Interracial Settings: The Competence Downshift by White liberals</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that white liberals, whether average people or politicians, present less competence to minorities than to other whites, suggesting that they draw on low competence stereotypes to affiliate with minorities.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Finally, jokes against low-status groups are seen as worse by those with low system justification (who tend to be liberals) when compared to jokes against high-status groups, while there appears to be no bias by those with high system justification (who tend to be conservatives.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://psyarxiv.com/qv764" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Low system justification drives ideological differences in joke perception: A critical commentary and re-analysis of Baltiansky et al. (2020)</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;our re-analyses suggest that ideological differences in joke perception are driven primarily by those scoring low on the system justification motivation rating jokes about ostensibly low-status groups as less funny than jokes about other social groups.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>I think some of this can be justified to an extent given that minority groups are oppressed more on average, and therefore the same action within our societal context would have different outcomes, but a lot of this seems very excessive. Moreover, even with actions which are worse when done against minorities now, as time goes on it is likely that the harm done by both actions will approach identical amounts. If a certain action against a group of people is bad, and it contributes to oppression against that group, in the long-run whichever form of prejudice we promote implicitly as better than the other will result in that form of oppression perpetuating disproportionately. This happens regardless of the starting position of each group.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+  
+</div>
+</body>
+</html>
