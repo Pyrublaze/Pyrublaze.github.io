@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+/* Insert page content below */
+
+<h2 style="margin-right:12px"><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Rapid Onset Gender Dysphoria</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Rapid onset gender dysphoria (ROGD) is essentially a hypothesized diagnosis for a portion of teen or young adult children who rapidly become gender dysphoric due to social influence or &ldquo;social contagion&rdquo; affecting youth vulnerable to mental disorders/illness. It should be noted that this was an emerging hypothesis derived from surveys of parents of gender dysphoric children, as opposed to being an analysis done by actual psychiatrists interviewing such gender dysphoric children. This at the very least raises questions about the legitimacy of ROGD as a medical category.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202330" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Parent reports of adolescents and young adults perceived to show signs of a rapid onset of gender dysphoria</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Surveys parents from websites where parents reported sudden or rapid onsets of gender dysphoria occurring in their teen or young adult children.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Suggests the possibility of a new category of gender dysphoria, called &ldquo;rapid onset gender dysphoria&rdquo;</span></span></span></li>
+</ul>
+
+<p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214157" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Correction: Parent reports of adolescents and young adults perceived to show signs of a rapid onset of gender dysphoria</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Correction and clarification of the above study</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Notes that Rapid onset gender dysphoria is not a formal diagnosis, and that the parent report sample results in bias.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>There has been testing done to see if there is a relationship between recency of belief regarding one&rsquo;s gender and mental health problems. If the ROGD hypothesis was true, people who had a higher recency of belief would likely be those who had more susceptibility to mental problems. However, research has suggested that if anything, the opposite is the case, suggesting that ROGD is not a real thing or only affects a very small proportion of gender dysphoric individuals.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.jpeds.com/article/S0022-3476(21)01085-4/fulltext" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Do Clinical Data from Transgender Adolescents Support the Phenomenon of &ldquo;Rapid Onset Gender Dysphoria&rdquo;?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Tests the hypothesis of rapid onset gender dysphoria</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;In 2018, a phenomenon of rapid onset gender dysphoria was hypothesized as a distinct pathway involving social contagion among youth vulnerable due to mental or neurodevelopmental disorders, raising public concerns regarding potential for later regret following gender-affirming medical care.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;If the rapid onset gender dysphoria hypothesis indeed characterizes a distinct clinical phenomenon, and these youth access referrals for hormone suppression or gender-affirming hormones, then we would expect to see differentiation within clinical samples between those with more-recent (ie, rapid-onset) vs more-remote knowledge regarding their gender. Based on the published hypothesis, we would expect more recent gender knowledge to be associated with self-reported mental health measures, mental health and neurodevelopmental disability diagnoses, behaviors consistent with maladaptive coping (eg, self-harm), support from online and/or transgender friends but not parents, and lesser gender dysphoria.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Controlling for age and sex assigned at birth, recent gender knowledge was not significantly associated with depressive symptoms, psychological distress, past diagnoses with mental health issues or neurodevelopmental disorders, gender dysphoria symptoms, self-harm, past-year suicide attempt, having gender-supportive online friends, general support from online friends or transgender friends, or gender support from parents. Recent gender knowledge was associated with lower scores on anxiety severity/impairment (b = &minus;3.272; 95% CI &minus;5.172, &minus;1.373), and lower prevalence of marijuana use (prevalence ratio = 0.11; 95% CI 0.02, 0.82), counter to hypothesized directions of effect. For sensitivity analysis using the alternate (value &le;2) definition of recent gender knowledge, we found all results substantively the same in statistical significance and direction of effect, except past-year marijuana use, which now only approached statistical significance (P = .0677).&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>Further Information:</em></span></span></span></p>
+
+<p><a href="https://link.springer.com/article/10.1007/s10508-019-1453-2" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Methodological Critique of Littman&rsquo;s (2018) Parental-Respondents Accounts of &quot;Rapid-Onset Gender Dysphoria&quot;</u></span></span></span></a></p>
+  
+</div>
+</body>
+</html>
