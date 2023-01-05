@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Transgender Social Support</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Social support of transgender people from friends and family, as well as self-acceptance, positively predicts quality of life along a variety of metrics.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S1743609516301734" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Perceived Discrimination, Social Support, and Quality of Life in Gender Dysphoria</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Study of 94 trans men</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that social support from friends and family positively predicts quality of life, while perceived group discrimination had no effect on quality of life.</span></span></span></li>
+</ul>
+
+<p><a href="https://whatweknow.inequality.cornell.edu/topics/lgbt-equality/what-does-the-scholarly-research-say-about-the-acceptancerejection-of-lgbt-youth-2/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>What does the scholarly research say about the link between family acceptance and LGBT youth well-being?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Literature review of 42 studies</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that family acceptance in general is linked to positive well-being of LGBT youth, and that accepting behavior of their orientation or identity is also linked to positive well-being.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.jahonline.org/article/S1054-139X(18)30085-5/fulltext#intraref0010a" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Chosen Name Use Is Linked to Reduced Depressive Symptoms, Suicidal Ideation, and Suicidal Behavior Among Transgender Youth</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Study of 129 transgender youths</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that after adjusting for personal characteristics and social support, chosen name use in more contexts was associated with lower depression, suicidal ideation, and suicidal behavior.</span></span></span></li>
+</ul>
+
+<p><a href="https://transpulseproject.ca/wp-content/uploads/2012/10/Impacts-of-Strong-Parental-Support-for-Trans-Youth-vFINAL.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Impacts of Strong Parental Support for Trans Youth</u></span></span></span></a><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">&nbsp;</span></span></span></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh4.googleusercontent.com/8SUJNOW0VFwe5-mOeUdDV-629Uz_ms0RTlFTRI5CnFTF1aP1dJdLzd2CCOxq6W9iLX0v8BVCeQXwyS9wWc5nBoGpITCI0RnNC0f1972_mYqNfMfHggg2xJovrg7qsJMz1TBVLKVZd486t4BpWRjS1WQQEqB37cbyxyWHGci7k9jlqR3JYiErNQyQbhR_4Q" style="height:308px; width:323px" /></span></span></span></p>
+
+<p><a href="https://bmcpublichealth.biomedcentral.com/track/pdf/10.1186/s12889-015-1867-2.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Intervenable factors associated with suicide risk in transgender persons: a respondent driven sampling study in Ontario, Canada</u></span></span></span></a><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">&nbsp;</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Among trans Ontarians, 35.1 % (95 % CI: 27.6, 42.5) seriously considered, and 11.2 % (95 % CI: 6.0, 16.4) attempted, suicide in the past year. Social support, reduced transphobia, and having any personal identification documents changed to an appropriate sex designation were associated with large relative and absolute reductions in suicide risk, as was completing a medical transition through hormones and/or surgeries (when needed). Parental support for gender identity was associated with reduced ideation. Lower self-reported transphobia (10th versus 90th percentile) was associated with a 66 % reduction in ideation (RR = 0.34, 95 % CI: 0.17, 0.67), and an additional 76 % reduction in attempts among those with ideation (RR = 0.24; 95 % CI: 0.07, 0.82). This corresponds to potential prevention of 160 ideations per 1000 trans persons, and 200 attempts per 1,000 with ideation, based on a hypothetical reduction of transphobia from current levels to the 10th percentile.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6663089/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>A systematic review of social stress and mental health among transgender and gender non-conforming people in the United States</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&quot;In general, depressive symptoms, suicidality, interpersonal trauma exposure, substance use disorders, anxiety, and general distress have been consistently elevated among TGNC adults.&quot;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Findings suggest that TGNC people are exposed to a variety of social stressors, including stigma, discrimination, and bias events that contribute to mental health problems. Social support, community connectedness, and effective coping strategies appear beneficial.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://publications.aap.org/pediatrics/article-abstract/137/3/e20153223/81409/Mental-Health-of-Transgender-Children-Who-Are?redirectedFrom=fulltext" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Mental Health of Transgender Children Who Are Supported in Their Identities</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Transgender children showed no elevations in depression and slightly elevated anxiety relative to population averages. They did not differ from the control groups on depression symptoms and had only marginally higher anxiety symptoms.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>Further Information:</em></span></span></span></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5996383/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The buffering role of social support on the associations among discrimination, mental health, and suicidality in a transgender sample</u></span></span></span></a><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">&nbsp;</span></span></span></p>
+
+<p>&nbsp;</p>
+
+
+</div>
+</body>
+</html>
