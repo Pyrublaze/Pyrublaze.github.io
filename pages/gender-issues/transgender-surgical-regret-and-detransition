@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Detransition and Regret</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Detransition and regret following a gender transition are related but distinct concepts. However, they are often studied alongside each other. Instances of regret and detransition following sex reassignment surgery exist, but research has generally found it to be very rare. Data varies, but the vast majority of research identified in reviewing the literature as well as meta-analysis suggests that the rates of either are less than 5%.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8099405/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Regret after Gender-affirmation Surgery: A Systematic Review and Meta-analysis of Prevalence</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Meta-analysis of 27 studies</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that there is an extremely low prevalence of regret in transgender patients after gender-affirmation surgeries (&lt;1% for trans-masculine and 1% for trans-feminine).</span></span></span></li>
+</ul>
+
+<p><a href="https://epath.eu/wp-content/uploads/2019/04/Boof-of-abstracts-EPATH2019.pdf#page=139" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Detransition rates in a national UK Gender Identity Clinic</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Patient assessment reports created between August 1st 2016 to August 1st 2017 were scanned electronically for words related to detransition or regret.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Of the 3398 patients who had appointments during this period, 16 (0.47%) expressed transition-related regret or detransitioned.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://journals.lww.com/prsgo/Fulltext/2018/08001/Abstract__A_Survey_Study_of_Surgeons__Experience.266.aspx" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Abstract: A Survey Study of Surgeons&rsquo; Experience with Regret and/or Reversal of Gender-Confirmation Surgeries</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;46 surgeons (30%) responded to the survery. 67% of providers have been in practice for greater than 10 years and most surgeons practice in the United States (69%) followed by Europe (22%). Surgeons were asked to select a range representing the number of transgender patients they have surgically treated, and this amounted to a cumulative number of approximately 22,725 patients treated by the cohort. 49% of respondents had never encountered a patient who regretted their gender transition or were seeking detransition care. 12 providers encountered 1 patient with regret and the rest encountered more than one patient. This amounted to a total of 62 patients. There were 13 patients who regretted chest surgery and 45 patients who regretted genital surgery.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://link.springer.com/article/10.1023/A:1024086814364#page-1" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Factors Associated with Satisfaction or Regret Following Male-to-Female Sex Reassignment Surgery</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&quot;Participants, all of whom were at least 1-year postoperative, completed a written questionnaire concerning their experiences and attitudes. Participants reported overwhelmingly that they were happy with their SRS results and that SRS had greatly improved the quality of their lives. None reported outright regret and only a few expressed even occasional regret.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/29463477/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Amsterdam Cohort of Gender Dysphoria Study (1972-2015): Trends in Prevalence, Treatment, and Regrets</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&quot;Only 0.6% of transwomen and 0.3% of transmen who underwent gonadectomy were identified as experiencing regret.&quot;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/24872188/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>An analysis of all applications for sex reassignment surgery in Sweden, 1960-2010: prevalence, incidence, and regrets</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Incidence and prevalence of applications in Sweden for legal and surgical sex reassignment were examined over a 50-year period (1960-2010), including the legal and surgical reversal applications.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;There were 15 (5 MF and 10 MF) regret applications corresponding to a 2.2% regret rate for both sexes. There was a significant decline of regrets over the time period.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://whatweknow.inequality.cornell.edu/topics/lgbt-equality/what-does-the-scholarly-research-say-about-the-well-being-of-transgender-people/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>What does the scholarly research say about the effect of gender transition on transgender well-being?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;</em></span></span><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff"><em>Regrets following gender transition are extremely rare and have become even rarer as both surgical techniques and social support have improved. Pooling data from numerous studies demonstrates a regret rate ranging from .3 percent to 3.8 percent. Regrets are most likely to result from a lack of social support after transition or poor surgical outcomes using older techniques.&rdquo;</em></span></span></span></span></li>
+</ul>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8213007/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Factors Leading to &ldquo;Detransition&rdquo; Among Transgender and Gender Diverse People in the United States: A Mixed-Methods Analysis</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;A total of 17,151 (61.9%) participants reported that they had ever pursued gender affirmation, broadly defined. Of these, 2242 (13.1%) reported a history of detransition. Of those who had detransitioned, 82.5% reported at least one external driving factor.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Respondents were asked the following question, &ldquo;Have you ever de-transitioned? In other words, have you ever gone back to living as your sex assigned at birth, at least for a while?&rdquo; with the following response options: &ldquo;Yes,&rdquo; &ldquo;No,&rdquo; and &ldquo;I have never transitioned.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>I wonder if this study has such a high detransition rate because it asks if a person has ever gone back at least for a while to living as your sex assigned at birth. It&rsquo;s possible that many people who answered this question simply did a temporary detransitioning as opposed to anything permanent, and this would explain the discrepancy between this result and others.</em></strong></span></span></span></li>
+</ul>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8503911/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Access to care and frequency of detransition among a cohort discharged by a UK national adult gender identity clinic: retrospective case-note review</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;A retrospective case-note review was performed as a service evaluation for 175 service users consecutively discharged by a tertiary National Health Service adult GIC between 1 September 2017 and 31 August 2018.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Twelve people (6.9%) met our case definition of detransitioning.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>This is the second individual study which disagrees with the provided 5% or less number I suggested. I suspect this is due to a relatively low sample size to estimate the prevalence of what is a rare phenomenon. It&rsquo;s thus fair to suggest that the result is due to statistical noise over anything.</em></strong></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff"><strong><em>It should be noted that there are a variety of factors which explain why regret or detransition occurs, some of which are arguably not due to the surgery itself. For example, the factor most consistently reported in the literature is social stigma. Still, other reasons which appear inherent to the surgery include complications, a lack of a sex life (which can be a consequence of complications), treatment interruptions, individuals changing their mind about their gender identity (which cannot always be predicted), and not belonging to the core group of transsexuals (which is irrelevant to the issue of transgenderism).</em></strong></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://epath.eu/wp-content/uploads/2019/04/Boof-of-abstracts-EPATH2019.pdf#page=139" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Detransition rates in a national UK Gender Identity Clinic</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The reasons stated by patients for their regret or detransition included: social factors, reporting physical complications, and changing their mind about their gender identity and identifying as their gender assigned at birth.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://link.springer.com/article/10.1023/A:1024086814364#page-1" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Factors Associated with Satisfaction or Regret Following Male-to-Female Sex Reassignment Surgery</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Dissatisfaction was most strongly associated with unsatisfactory physical and functional results of surgery.&quot;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8213007/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Factors Leading to &ldquo;Detransition&rdquo; Among Transgender and Gender Diverse People in the United States: A Mixed-Methods Analysis</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Frequently endorsed external factors included pressure from family and societal stigma. History of detransition was associated with male sex assigned at birth, nonbinary gender identity, bisexual sexual orientation, and having a family unsupportive of one&#39;s gender identity. A total of 15.9% of respondents reported at least one internal driving factor, including fluctuations in or uncertainty regarding gender identity.&quot;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S1158136012001120?via%3Dihub" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Postoperative regrets after sex reassignment surgery: A case report</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The scientific literature shows that the risk of regret is higher among men who have experienced a long heterosexual life, whose request for sex reassignment comes late in life, and who do not receive the support of family and friends. To this conclusion, we might add that the lack of sex life, interruption of the treatment and the absence of gender disorder in childhood seem to be significant criteria for risk of postoperative regret.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/9570489/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Factors predictive of regret in sex reassignment</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Looks at factors predictive of regret in sex reassignment</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that the 2 predictors were belonging to the non-core group of transsexuals and lack of support from the patient&rsquo;s family.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>Further Information:</em></span></span></span></p>
+
+<p><a href="https://www.tandfonline.com/doi/full/10.1080/00918369.2021.1919479" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Detransition-Related Needs and Support: A Cross-Sectional Online Surve</u></span></span></span></a></p>  
+  
+</div>
+</body>
+</html>
