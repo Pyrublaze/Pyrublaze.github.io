@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Same-Sex Marriage</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Same-sex married couples have a higher suicide rate relative to opposite-sex married couples. However, research has also suggested that married LGBT adults are healthier and happier than single LGBT adults, which means that marriage likely increases the quality of life of homosexuals even if they still have higher suicidality relative to heterosexuals.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://jech.bmj.com/content/74/1/78" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Suicide among persons who entered same-sex and opposite-sex marriage in Denmark and Sweden, 1989&ndash;2016: a binational, register-based cohort study</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Looks at suicide rates of married couples</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds a 2.3 times higher suicide rate among same-sex married couples as opposed to opposite-sex married couples</span></span></span></li>
+</ul>
+
+<p><a href="https://www.washington.edu/news/2017/04/13/married-lgbt-older-adults-are-healthier-happier-than-singles-study-finds/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Married LGBT older adults are healthier, happier than singles, study finds</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that married LGBT adults are healthier and happier than single LGBT adults</span></span></span></li>
+</ul>
+
+<p><a href="https://psycnet.apa.org/doiLanding?doi=10.1037%2F0003-066X.61.6.607" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Legal recognition of same-sex relationships in the United States: A social science perspective</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The data indicate that same-sex and heterosexual relationships do not differ in their essential psychosocial dimensions; that a parent&#39;s sexual orientation is unrelated to her or his ability to provide a healthy and nurturing family environment; and that marriage bestows substantial psychological, social, and health benefits. It is concluded that same-sex couples and their children are likely to benefit in numerous ways from legal recognition of their families, and providing such recognition through marriage will bestow greater benefit than civil unions or domestic partnerships.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Laws allowing same-sex marriage appear to have general positive health effects. This has been seen with research suggesting positive mental health outcomes of legalizing same-sex marriage, as well as same-sex marriage laws being associated with lower spread of syphilis, a proxy for risky homosexual behavior, and lower healthcare use among sexual minorities. A lot of this likely has to do with increased freedom but it also probably also reflects cultural shifts that emerge following such laws which legitimate same-sex marriage. Moreover, the additional legal and financial rights, benefits, and protections afforded to same-sex couples through legalizing same-sex marriage is another likely culprit for this.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>Mental Health</strong></span></span></span></p>
+
+<p><a href="https://jamanetwork.com/journals/jamapediatrics/fullarticle/2604258" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Difference-in-Differences Analysis of the Association Between State Same-Sex Marriage Policies and Adolescent Suicide Attempts</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Study of 47 states</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that the passage of same-sex marriage policies resulted in a 7% reduction in suicide among all high school students, with a disproportionately positive effect on sexual minority high school students.</span></span></span></li>
+</ul>
+
+<p><a href="https://jamanetwork.com/journals/jamapediatrics/article-abstract/2643167" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Legalization of Same-Sex Marriage and Drop in Adolescent Suicide Rates: Association But Not Causation&mdash;Reply</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Our study went beyond studies of simple association by including controls at the state level and assessing changes in suicide attempts that happened within each state following the implementation of same-sex marriage policies. Including state indicators also controlled for time-invariant differences in state environments for sexual minority populations, so our estimates are free of confounding owing to fixed state-level characteristics, such as political ideology. We also conducted several robustness checks, including an analysis indicating that there were not significant reductions in suicide attempts 2 years prior to same-sex marriage. We found that suicide attempts were stable over time prior to the implementation of state same-sex marriage policies, suggesting that improvements in outcomes that might be associated with increasingly supportive environments for sexual minorities did not predate changes in legal status of same sex marriage.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/33812751/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Association Between Same-Sex Marriage Legalization and Youth Deaths by Suicide: A Multimethod Counterfactual Analysis</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&quot;The study used country-level suicide data sourced from the Global Burden of Disease Study for all 36 Organisation for Economic Co-operation and Development countries for the period 1991-2017. We analyzed the suicide rates of all youth, male youth, and female youth aged 10-24 years using multiple policy-evaluation methods-difference-in-differences, matrix completion, and generalized synthetic control via expectation-maximization-to estimate the impact of same-sex marriage legalization at the country level.&quot;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The state-of-the-art matrix completion analysis indicated that same-sex marriage legalization was associated with a decline in the youth suicide rate of 1.191 deaths per 100,000 individuals (95% CI = -1.66, -.64; p &lt; .001), corresponding to a reduction of 17.90% compared to the youth suicide rate at the time of legalization.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://ideas.repec.org/a/eee/socmed/v75y2012i8p1329-1341.html" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>In sickness and in health: Same-sex marriage laws and sexually transmitted infections</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;This paper analyzes the relationship between same-sex marriage laws and sexually transmitted infections in the United States using state-level data from 1981 to 2008.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Laws banning same-sex marriage are unrelated to gonorrhea rates, which are a proxy for risky heterosexual behavior. They are more closely associated with syphilis rates, which are a proxy for risky homosexual behavior. However, these estimates are smaller and less statistically significant when we exclude California, the state with the largest gay population. Also, laws permitting same-sex marriage are unrelated to gonorrhea or syphilis, but variation in these laws is insufficient to yield precise estimates. In sum, the findings point to a modest positive association&mdash;if any at all&mdash;between same-sex marriage bans and syphilis.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.eurekalert.org/news-releases/544385" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Lesbian, gay, bisexual individuals risk psychiatric disorders from discriminatory policies</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;A Mailman School of Public Health study examining the effects of institutional discrimination on the psychiatric health of lesbian, gay and bisexual (LGB) individuals found an increase in psychiatric disorders among the LGB population living in states that instituted bans on same-sex marriage.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>Syphilis</strong></span></span></span></p>
+
+<p><a href="https://www.academia.edu/446302/The_Effects_of_Same_Sex_Marriage_Laws_on_Public_Health_and_Welfare" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Effects of Same-Sex Marriage Laws on Public Health and Welfare</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that looking at micro and state-level data, same-sex marriage bans reduced tolerance for gays and increased the syphilis rate, a proxy for risky homosexual behavior</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">There was no consistent evidence that these bans impacted risky heterosexual behavior, marriage, or divorce</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>Healthcare Use</strong></span></span></span></p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/22390442/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Effect of same-sex marriage laws on health care use and expenditures in sexual minority men: a quasi-natural experiment</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that the passage of same-sex marriage laws decreased healthcare use and expenditures for sexual minorities, married or not.</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong>Additional Benefits</strong></span></span></span></p>
+
+<p><a href="https://publications.aap.org/pediatrics/article/118/1/349/69577/The-Effects-of-Marriage-Civil-Union-and-Domestic" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Effects of Marriage, Civil Union, and Domestic Partnership Laws on the Health and Well-being of Children</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;For same-gender couples and their children, enactment of marriage amendments halts the possibility of obtaining many legal and financial rights, benefits, and protections&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+</div>
+</body>
+</html>
