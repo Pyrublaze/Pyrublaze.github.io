@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Affirmative Action</strong></span></span></span></h2>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>In College</strong></span></span></span></h3>
+
+<h4><span style="color:#ffffff"><span style="font-size:12pt"><span style="font-family:Arial"><strong>Effect on Minority Admissions</strong></span></span></span></h4>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>The evidence suggests that affirmative action in universities has positive effects on minority admissions. This effect is stronger in more elite-level schools. This does come at the expense of some whites, but minority populations in these schools are still relatively small so this discrimination effect is relatively small as well.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.aeaweb.org/articles?id=10.1257/aer.20140783" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Does Affirmative Action Work? Caste, Gender, College Quality, and Academic Success in India</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;We study the effects of one such affirmative action program: an admissions policy that fixes percentage quotas, common across more than 200 engineering colleges, for disadvantaged castes and for women. We show that the program increases college attendance of targeted students, particularly at relatively higher-quality institutions.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://diversity.berkeley.edu/sites/default/files/understanding_affrirmative_action.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Understanding Affirmative Action</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Literature review</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Race-sensitive admissions policies significantly increased the numbers of African Americans admitted to and who attended schools</span></span></span></li>
+</ul>
+
+<p><a href="https://go.gale.com/ps/i.do?p=AONE&amp;u=googlescholar&amp;id=GALE%7CA53744951&amp;v=2.1&amp;it=r&amp;sid=googleScholar&amp;asid=f46747c4" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Does Affirmative Action for Blacks Harm Whites? Some Evidence From the Higher Education Arena</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that minority representation in schools as a result of affirmative action gains have not come at the expense of whites, although in some cases has slowed down the white gains in numbers in university.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.jstor.org/stable/23261474?searchText=&amp;searchUri=&amp;ab_segments=&amp;searchKey=&amp;refreqid=fastly-default%3A9999d33bbb0ee62950e23b72868c8010#metadata_info_tab_contents" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Effects of Affirmative Action Bans on College Enrollment, Educational Attainment, and the Demographic Composition of Universities</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;I find that bans have no effect on the typical student and the typical college, but they decrease underrepresented minority enrollment and increase white enrollment at selective colleges.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;the affirmative action ban in California shifted underrepresented minority students from more selective campuses to less selective ones at the University of California.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.jstor.org/stable/pdf/30162729.pdf?refreqid=excelsior%3Ab5df27a45b1892b4eddfe0f728629c58&amp;ab_segments=&amp;origin=" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Affirmative Action: What Do We Know?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Literature review</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">The impacts of affirmative action on the attendance of black and Hispanic students is small for the majority of colleges and universities but rises with the quality of the school and become substantial at elite schools</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Still, blacks and hispanics have relatively low numbers at elite schools, so the displacement of whites is fairly small</span></span></span></li>
+</ul>
+
+<p><a href="https://www.jstor.org/stable/2962408" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>What if there was no Affirmative Action in College Admissions? A Further Refinement of our Earlier Calculations</u></span></span></span></a></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh3.googleusercontent.com/2RqW6Nyt4hX9Qa8_63efw0YFUHPNjV5DTqmTYjlOWAyDCxnTwNjVrFI1W0txn6mSIXBGoTPVVGMAnATcj-XS_9lrMwY247ux4Y7KtLxDK7SCyVonBftFPDxhs43lugjb7W9n0MSxhvBvB1DGTuEglHDR6ld8s-foTrnNadCRXGl8rYlatQOQnZrn_apGuw" style="height:427px; width:272px" /></span></span></span></p>
+
+<p><a href="https://www.ceousa.org/wp-content/uploads/2013/02/VALaw.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Racial and Ethnic Preferences at the Three Virginia Public Law Schools</u></span></span></span></a></p>
+
+<p><a href="https://www.ceousa.org/wp-content/uploads/2012/01/ASU_LAW.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Racial and Ethnic Admission Preferences at Arizona State University College of Law</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Affirmative action exists in some law schools in the US and discriminates against white people in favor of minorities, often with lower LSAT scores and college GPAs.</span></span></span></li>
+</ul>
+
+<h4><span style="color:#ffffff"><span style="font-size:12pt"><span style="font-family:Arial"><strong>Effect on Minority Performance and Labor Market Effects</strong></span></span></span></h4>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>While affirmative action undoubtedly does increase the admission of minorities into universities, there is debate about if this comes at the expense of minorities, who may suffer from being put into more difficult courses. This effect is known as mismatch. There is some research which suggests that mismatch occurs, with the most important study looking at law school affirmative action.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.jstor.org/stable/40040209" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>A Systemic Analysis of Affirmative Action in American Law Schools</u></span></span></span></a></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">The effects of affirmative action on academic performance in law school:</span></span></span></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh6.googleusercontent.com/oKT3WYcqMaghJM1K9SSg3QbDT0T8a4b2qRVzhIA_bRZ9XNfLzZB_0bnxahnMul_DizDF6nYGTWN5qZ4N3MMle0n9tuBZx-dz9o7sLbEzfmnVu9xKvvhICNxg7R45LSYbO0PJWyw6jMGpJSixGwSJEDmRHM2gPa5AxtUcaL5XtxstB-HDxqDwZMnwPlGgSA" style="height:267px; width:400px" /></span></span></span></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh3.googleusercontent.com/VXsyVWpu_jmFLyuW6coZSkjxuulpz6S4IzJYI189CvdxriWeRlGLB-2sRIuN-Zu45bMvUneTjp3NZCssho0zhANJmb45Ze1G18Xbbczd2WcwbQ9jpmoa5fxuT53dZVLsv-ZPdVQedr3Sta98_5WYcnrBEUv3lyA4J4vYFXkkYz-JtM3niPt6oJ1NZWAXvg" style="height:248px; width:393px" /></span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Table 5.2 shows that after controlling for prior LSAT scores and GPA, there is no statistically significant relationship between race and performance in law schools, meaning that LSAT and GPA are important over race in explaining grades.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Therefore, the poor performance of black students at law schools appears to be primarily a function of disparate entering credentials, which is explained by law schools&rsquo; heavy use of racial preferences.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">In fact, blacks are heavily concentrated among low performers in almost all law schools in the US, except for those that are historically minority law schools</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh5.googleusercontent.com/WICly76txX_tZtKICO9_EURusYDh3URu0oZFQmvB0tsv9sI0lLSNUVvP0qoM8XCQRSXZ663K-b4oUUfmp0n0CKR270LlX30vCIlI88TryaET6EZbybbq5dbzKgtulIOc1f8x4fP2vhPw4rxg07_dYm5JwUdj59cS4ai9JeWS1JJpSQi5-Qt6pe7se5uNRA" style="height:345px; width:410px" /></span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Among black students who graduate law school, their grades slightly drop relative to everyone else.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Black students also tend to drop out more in law school. One study found that 8.2% of the white students, but 19.2% of the black students, who started law school in 1991 had not graduated by the end of the study 5 years later.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">However, one could argue that black attrition could be lowered through racial preferences, as elite law schools have higher graduation rates than other law schools.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Law school eliteness independently of gpa predicts law school graduation, but gpa is a stronger predictor. Race alone isn&rsquo;t a predictor after controlling for these and several other factors, such as family income.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Therefore, those who receive preferences to go to more elite law schools derive some benefit from higher general graduation rates, but get much lower grades and thus on the balance, drop out more.</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh6.googleusercontent.com/BJLQt106kkm5g025Qur-tkx3ahZqN65_uL77RzzdvOqKctjeV2Ts1ckvoV7X9ylFxzQyJlrFE1UmQJvjXPbo7IExJMIQgoNhMYxrTzngBEv4qNx6J-DOAYZ8at2vtW8c3vZs1mVT4qNabMPiuZd1n9OZz_tqedTSBMNkdCbmE5c-12d6zcnvNTJpgVqoGQ" style="height:188px; width:337px" /></span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Racial preferences appear to have an effect equivalent to lowering the index of the typical black student by 60 to 80 points. This results in a high attrition disparity between blacks and whites.</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Conclusion</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">The main advantage of affirmative action is that it increases the number of black students in law schools in general and also prestigious law schools. However, they are as a whole disadvantaged when affirmative action is in place, with lower GPAs and higher attrition.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">As a consequence, blacks are less likely than whites to pass state bar exams after multiple attempts. However, when they do pass the bar, they have a slight earning advantage than whites seeking similar jobs with similar credentials likely due to racial preferences in hiring.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">When taking into account the negative effects of affirmative action on graduation and passing the bar, affirmative action probably tends to decrease the number of new black lawyers.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Note: Assumes effects of GPA and SAT on school performance are uniform for races</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Unfortunately, this study has the problem of presupposing in their regression models that the effect of GPA and SAT performance is uniform for races. When not looking at average effects, a different picture is painted in which prior performance is less of a predictor of future performance for black people. Moreover, the effect of school selectivity on performance is negative for the general population, but looking specifically at black people it positively predicts performance.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.aeaweb.org/articles?id=10.1257/aer.20140783" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Does Affirmative Action Work? Caste, Gender, College Quality, and Academic Success in India</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;We study the effects of one such affirmative action program: an admissions policy that fixes percentage quotas, common across more than 200 engineering colleges, for disadvantaged castes and for women.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;An important concern is that affirmative action might harm intended beneficiaries by placing them in academic programs for which they are ill-prepared. We find no evidence of such adverse impacts.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://diversity.berkeley.edu/sites/default/files/understanding_affrirmative_action.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Understanding Affirmative Action</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Literature review</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Those admitted as a result of race-sensitive admissions policies graduated at the same rate as white students</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This was all shown by a study which analyzed over 80,000 students who had matriculated at 28 elite colleges and universities in 1951, 1976, and 1989.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Colleges and universities cannot achieve ethnic diversity if class representation is the only factor represented</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">One study did suggest that minority attrition increased following affirmative action </span></span><span style="font-size:10pt"><span style="font-family:Arial"><em>(The study a systematic analysis of affirmative action in American law schools)</em></span></span><span style="font-size:10pt"><span style="font-family:Arial">, but the study assumed that the relationship between initial grades and law school grades are the same among black students as white students, which is false, among other issues.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.jstor.org/stable/pdf/30162729.pdf?refreqid=excelsior%3Ab5df27a45b1892b4eddfe0f728629c58&amp;ab_segments=&amp;origin=" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Affirmative Action: What Do We Know?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Literature review</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">If it is the case that affirmative action in admissions is allowing less qualified minorities to enter more selective schools, their grades relative to whites would drop as college selectivity rose, and their dropout rates would be higher at such schools, especially for minority students with the lowest relative SAT scores.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">For blacks, the evidence suggests that college selectivity improves graduation rates, but negative effects for the general population, so therefore affirmative action in university generates no harm and probably some gains in graduation rates and later earnings for minorities who attend more elite colleges and universities.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Law school quality conditional on college grades and LSAT scores increases rather than decreases bar passage and graduation rates in law schools for blacks</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>The mismatch effect could still nonetheless occur for some especially unqualified black candidates. I would need to do more research before I felt confident about this issue specifically, but it is certainly possible that in the United States, affirmative action is so extreme that it is suboptimal for advancing educational outcomes for minorities.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.jstor.org/stable/pdf/30162729.pdf?refreqid=excelsior%3Ab5df27a45b1892b4eddfe0f728629c58&amp;ab_segments=&amp;origin=" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Affirmative Action: What Do We Know?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Literature review</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Mismatch could exist for a subset of especially unqualified black candidates, and the degree to which affirmative action is too much or too little in the US is up for debate.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.nber.org/system/files/working_papers/w20962/w20962.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Affirmative Action and the Quality-Fit Tradeoff</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The literature clearly shows positive average effects of college quality on a host of outcomes. This suggests that mild racial preferences will have a positive impact on minority outcomes. The issue is whether racial preferences in their current form are so strong that mismatch effects may arise.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;As we argue throughout this paper, the net impact of racial preferences come down to whether the strength of the overall college quality effect is larger or smaller than any match effects.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The evidence suggests that racial preferences are so aggressive that reshuffling some African American students to less-selective schools would improve some outcomes due to match effects dominating quality effects. The existing evidence indicates that such match effects may be particularly relevant for first-time bar passage and among undergraduates majoring in STEM fields. However, shifting minority undergraduates to low-resource non-selective schools ultimately may undo any gains from higher match quality, and shifting minorities out of law schools altogether could lead to worse labor market outcomes among these students than had they been admitted to some law school.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Importantly, mismatch effects presuppose either that students&#39; enrollment decisions are irrational or that selective universities possess private information which affects school performance. There is some evidence for the latter, meaning if we presuppose that the former assertion is true, making such information more public could decrease mismatch effects where they exist.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.3982/QE83" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Does affirmative action lead to mismatch? A new test and evidence</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;We argue that once we take into account the students&#39; rational enrollment decisions, mismatch in the sense that the intended beneficiaries of affirmative action admission policies are made worse off ex ante can only occur if selective universities possess private information.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Ex ante mismatch occurs when revelation of this information would have changed the student&#39;s choice of school. This necessary condition for mismatch provides the basis for a new test. The test is implemented using data from the Campus Life and Learning Project at Duke University. Evidence shows that Duke does possess private information that is a statistically significant predictor of students&#39; post-enrollment academic performance. Further, this private information is shown to affect the subjective measures of students&#39; satisfaction as well as their persistence in more difficult majors.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Much of the research above on the subject suggests that the positive effects of affirmative action on minority performance translates into positive labor market effects downstream. There is some research which suggests otherwise, but this suffers from the same problem as another study mentioned before in that it assumes uniform effects of prior performance on future performance for racial groups.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.jstor.org/stable/pdf/2117647.pdf?refreqid=excelsior%3A42e0ed4c8fa818183614196a852973f5&amp;ab_segments=&amp;origin=" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Affirmative Action in Higher Education</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that holding performance constant, blacks gain more in subsequent earnings from attending selective colleges than whites, but this may be offset by performance as a result of affirmative action.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Moreover, colleges with a median SAT score above 1100 have no higher returns to education than colleges with one between 1000-1099, meaning that affirmative action may lower black students&rsquo; earnings if they perform worse in more selective schools.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Note: Assumes effects of GPA and SAT on school performance are uniform for races</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>In short, it appears that mismatch is not an inherent feature of affirmative action programs although it can occur when such programs are sufficiently extreme. There is little evidence that affirmative action negatively impacts school performance for minorities and the overall evidence suggests it has positive labor market effects for such groups.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<h4><span style="color:#ffffff"><span style="font-size:12pt"><span style="font-family:Arial"><strong>Student Diversity and School Performance</strong></span></span></span></h4>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>There also appears to be positive externalities derived from the increased student diversity created as a consequence of affirmative action. Most notably, it appears to improve school performance for all groups in general, meaning that affirmative action can cause boosts for non-minority students who aren&rsquo;t discriminated against.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.gse.harvard.edu/news/uk/18/07/case-affirmative-action" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Case for Affirmative Action</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Decades of research in higher education show that classmates of the direct beneficiaries of affirmative also benefit. They have more positive racial attitudes toward racial minorities, they report greater cognitive capacities, they even seem to participate more civically when they leave college.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://diversity.berkeley.edu/sites/default/files/understanding_affrirmative_action.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Understanding Affirmative Action</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Literature review</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Diversity results in an increased ability to take perspective of others and increased involvement in political affairs.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Cross-ethnic interactions and participation in diversity courses benefits both whites and people of color</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Studies have also found enhanced cognition results from improved diversity</span></span></span></li>
+</ul>
+
+<p><a href="https://www.jstor.org/stable/pdf/30162729.pdf?refreqid=excelsior%3Ab5df27a45b1892b4eddfe0f728629c58&amp;ab_segments=&amp;origin=" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Affirmative Action: What Do We Know?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Literature review</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Diversity in colleges and universities are associated with various learning and &ldquo;democracy&rdquo; outcomes amongst all race or ethnic groups, although arguments about causality potentially undermine these results, as for example those who are growing intellectually might be more likely to go to diverse spaces as they&rsquo;re more culturally aware.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Some experimental data however does confirm this effect probably exists.</span></span></span></li>
+</ul>  
+  
+</div>
+</body>
+</html>
