@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Stereotype Accuracy</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>There are two major types of stereotypes which are of concern when discussing stereotype accuracy. Generic stereotypes are those which make an assertion about every member of a group. On the other hand, statistical stereotypes are those which make an assertion about group averages. Research suggests that statistical stereotypes are generally accurate and group differences are often underestimated, and have been found across race and gender lines.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://psycnet.apa.org/record/2015-19097-002" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Stereotype accuracy: One of the largest and most replicable effects in all of social psychology</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Literature review</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that stereotype accuracy is one of the largest and most replicable effects in all of social psychology</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Accuracy is quantitative and probabilistic, not absolute (Jussim, 2005, 2012). As such, accuracy, error, and bias are not mutually exclusive (Jussim, 1991; West &amp; Kenny, 2011). Therefore, declaring some stereotype ( or stereotypes in general) to be moderately to highly accurate does not preclude the possibility that it ( or they) also contain errors and biases.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Second, accuracy refers to correspondence between belief and criteria (Funder, 1987, 1995; Jussim, 1991, 2005, 2012). As such, accuracy questions are fundamentally about the content of people&#39;s beliefs, not the processes of social perception. How people arrive at their stereotyped beliefs is a process question, not an accuracy question. Similarly, how individuals and groups develop their characteristics are interesting and important social process questions, but they are not accuracy questions.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Some modern definitions of stereotypes deftly avoid the logical incoherence that results from defining them as inaccurate simply by being agnostic with respect to stereotype (in)accuracy. One of the simplest of these definitions, and the one we will use throughout this chapter, was provided by Ashmore and Del Boca (1981, p. 21) who concluded that there is widespread agreement on this one aspect of stereotypes: &quot;a stereotype is a set of beliefs about the personal attr_ibutes of a social group.&quot; Stereotypes, by this definition, may or may not be: accurate and rational, widely shared, conscious, rigid, exaggerations of group differences, positive or negative, or based on essentialist or biological rationales. Stereotypes may or may not be the cause or the effect of prejudice, or the cause of biases and self-fulfilling prophecies.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Thus, stereotype accuracy has been commonly assessed in either of two ways in the scientific literature. Discrepancy scores assess how close to perfection people&#39;s beliefs come.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Research on stereotype accuracy has also used correlations to assess how well people&#39;s beliefs about groups correspond to what those groups are like.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Discrepancy scores and correlations have each been used to assess two types of stereotypes: consensual and personal stereotypes. Consensual (or aggregate) stereotypes refer to the. extent to which a stereotype is shared by the members of a culture, or a particular sample, and are usually assessed by sample means ( e.g., the mean belief about women&#39;s height in a sample is the best estimate of the consensual stereotype for women&#39;s height for the group sampled). Personal stereotypes are simply any individual&#39;s beliefs about a group, regardless of whether that belief is shared by others. &ldquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Four studies assessed the racial and ethnic stereotype accuracy for specific judgments. The predominant pattern of consensual discrepancies was accuracy, which occurred for a plurality or majority of all judgments (Ashton &amp; Esses, 1999; Kaplowitz, Fisher, &amp; Broman, 2003; McCauley &amp; Stitt, 1978; Ryan, 1996). Three studies found more evidence of underestimating than of exaggerating real differences (Kaplowitz et al., 2003; McCauley &amp; Stitt, 1978; Wolsko, Park, Judd, &amp; Wittenbrink, 2000). One found more evidence of exaggerating real differences (Ryan, 1996).&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;In general, stereotype accuracy was higher when the criteria were objective ( Census data and Canadian achievement data, respectively, for McCauley &amp; Stitt, 1978 and Ashton &amp; Esses, 1999) than when they were self-reports (Ryan, 1996). Researchers often justifiably raise concern about self-reports as criteria (Fiske, 1998; Stangor, 1995). These results suggest that the use of self-reports, which can themselves be tainted by all sorts of biases, probably leads to underestimates of accuracy.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Gender stereotypes. Eight studies described in four papers (Briton &amp; Hall, 1995; McCauley, Thangavelu &amp; Rozin, 1988; McCauley &amp; Thangavelu, 1991; Swim, 1994) examined the accuracy of gender stereotypes. Each found that a majority of consensual discrepancies were accurate. A ninth study reported 18 accurate consensual gender stereotype judgments, 21 near misses, and 9 inaccurate judgments (Beyer, 1999). No study provided evidence that inaccuracies consistently exaggerated real differences, and the most common pattern was underestimating real differences.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Other stereotypes. Stereotypes of college majors, occupations, sororities, and jazz vs. modern dancers (Cejka &amp; Eagly, 1999; Clabaugh &amp; Marling, 2004; Judd, Ryan, &amp; Park, 1991) were generally consistent with the results summarized above for race and gender very high consensual stereotype accuracy correlations (.80 to .90, when they could be assessed), high personal stereotype accuracy correlations (.40 to .70), and consensual discrepancies that were usually accurate more than they either exaggerated or underestimated group differences (personal discrepancies were not reported in these studies-see Jussim, 2012 for a detailed review).&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&quot;We located no studies of racial stereotype accuracy published after 2003.&quot;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;There has, however, been recent research on gender stereotype (in)accuracy. One study found results for consensual gender stereotype discrepancies consistent with those reported above (Halpern, Straight, &amp; Stephenson, 2011). Indeed, the title of the article is &quot;Beliefs about Cognitive Gender Differences: Accurate for Direction, Underestimated for Size.&quot;&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Another recent study was strikingly titled &quot;Gender Stereotypes of Personality: Universal and Accurate?&quot; (Lockenhoff et al., 2014). In this study, over 3,000 participants in 26 countries indicated their perceptions of males and females on the Big Five personality traits.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;For all five personality traits, consensual stereotype discrepancies were accurate, regardless of whether self-reports or observer reports were used as criteria.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;But this only works if the average reflects the truth. So why are consensual stereotypes so valid? The only way they can become so valid is if social reality has a systematic influence on individuals&#39; beliefs about groups. This influence does not need to be large. If, however, social reality was completely unrelated to people&#39;s beliefs, those beliefs, even when aggregated, would not correspond with reality. One way or another, social reality appears to be a major influence on stereotypes.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Both personal and consensual stereotypes are generally valid.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Some statistical stereotypes are nonetheless exaggerated, such as stereotypes about adherents to political ideologies or stereotypes about the degree to which other people hold stereotypes.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://psycnet.apa.org/record/2015-19097-002" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Stereotype accuracy: One of the largest and most replicable effects in all of social psychology</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Political stereotypes, and the degree to which other people hold stereotypes, are areas in which there is an exaggeration of stereotypes. National character stereotypes also appear to be inaccurate.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>These statistical stereotypes arguably operate as a form of knowledge, which is confirmed by research which suggests that more educated people hold more accurate racial stereotypes.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Beyond the mere demonstrations of accuracy, several lines of research are converging around a stereotypes as knowledge hypothesis. If stereotypes are (at least in part) a form of everyday knowledge, then more informed people should hold more accurate stereotypes. Consistent with this hypothesis, more highly educated people held more accurate racial stereotypes (Kaplowitz et al., 2003).&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>A belief in egalitarianism has been hypothesized to explain how some statistical stereotypes are underestimated. Research suggests that stereotype accuracy improved for people with a multicultural mindset relative to people with a colorblind mindset. Moreover, politically left-wing individuals also tend to underestimate differences.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The egalitarian denial hypothesis is that, in their attempt to be good, decent, unbigoted egalitarians, many people are motivated to deny real group differences. Because groups often do really differ on many attributes, such people should often inaccurately see groups as differing less than they really do. This may help explain the widespread evidence of underestimation of real differences.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Ashton and Esses ( 1999) show that people very low in right-wing authoritarianism i.e., people likely to be politically left-wing-inaccurately underestimated real differences. And finding that intelligence did not matter for this group strongly hints at the possibility that this denial of differences is motivated, rather than merely a reflection of ignorance. This might be a case where motivation overrides knowledge to produce inaccurate stereotypes.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Another consequence of increasing stereotype accuracy may be to i:q.crease multicultural sensitivity. Although different proponents of multiculturalism have different rationales, themes typically emphasize understanding and respecting the beliefs, values, and practices of people from different groups and background than one&#39;s own. Respecting others&#39; values, beliefs, and practices makes sense primarily if one has a reasonably clear (accurate) sense of what those values, beliefs, and practices are. Or, put differently, part of multiculturalism can be viewed as a call for increasing stereotypes as knowledge relative to stereotype inaccuracy.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Wolsko et al. (2000) show that when people are instructed to adopt a color-blind mindset, their stereotypes more strongly underestimate real differences than when instructed to adopt a multicultural mindset. Being directly instructed to discount group differences caused greater underestimation inaccuracy-a result consistent with the egalitarian denial hypothesis.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Inaccurate statistical stereotypes about political differences, which were exaggerated, is a major predictor of the likelihood of one to engage in political action. This may be a notable cause of political divides today</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Although a vast body of literature has assessed the effects of social stereotypes (see Schneider, 2004 for a review), research has only just begun to address the specific consequences of holding accurate versus inaccurate stereotypes. Westfall et al. (2015) found, for example, that those who most greatly exaggerated partisan political differences-i.e., those who were most inaccurate-were most likely to be actively engaged in political action ( such as donating money or working for a campaign). They concluded that it seemed likely that those who perceived greater polarization feel more of a need to support and defend their political group from the (perceived) threat posed by the opposing political party. This raises the possibility that inaccurate stereotypes are at least one source of the gridlock that has plagued American national politics for some time-if it is primarily extremists who are involved in politics, and if they demonize the opposition&#39;s views as so extreme as to be &quot;beyond the pale&quot; ( e.g., Republicans who liken mainstream Democrats to communists, or Democrats who liken mainstream Republicans to fascists and religious zealots), there may be little interest or perceived ability to reach common ground for moving forward.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Importantly, however, generic stereotypes tend to predominate the decision-making of individuals, and these tend to be cognitively simpler, are often about infrequent attributes, are based on limited statistical evidence, are not very prone to change, and are often used to generate genetic explanations where they may not necessarily exist.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.researchgate.net/publication/313670518_Investigating_the_cognitive_structure_of_stereotypes_Generic_beliefs_about_groups_predict_social_judgments_better_than_statistical_beliefs" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Investigating the cognitive structure of stereotypes: Generic beliefs about groups predict social judgments better than statistical beliefs</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Beliefs about groups can be generic or statistical. Generic beliefs attribute features to entire groups (e.g., men are strong), whereas statistical beliefs encode the perceived prevalence of features (e.g., how common it is for men to be strong).&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Relative to statistical beliefs, generic beliefs about social groups were significantly stronger predictors of expectations (Studies 1&ndash;3) and explanations (Study 4) for unfamiliar individuals&rsquo; traits. Additionally, consistent with prior evidence that generic beliefs are cognitively simpler than statistical beliefs, generic beliefs were particularly predictive of social judgments for participants with more intuitive (vs. analytic) cognitive styles and for participants higher (vs. lower) in authoritarianism, who tend to view outgroups in simplistic, all-or-none terms. The present studies suggest that generic beliefs about groups are more central than statistical beliefs to the cognitive structure of stereotypes.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.researchgate.net/publication/315539255_Are_stereotypes_accurate_A_perspective_from_the_cognitive_science_of_concepts" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Are stereotypes accurate? A perspective from the cognitive science of concepts</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;If stereotypes are generic beliefs, the evidence Jussim presents &ndash; all of which is about people&rsquo;s statistical estimates concerning group attributes &ndash; does not legitimize the claim that stereotypes are accurate. As explained above, generic beliefs depend only in a loose sense on the statistics available in the world. As a result, one cannot justifiably claim that generic beliefs are accurate, at least using the commonsense notion of accuracy that Jussim himself operates with.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;As already illustrated, many common generic beliefs are about attributes that are infrequent (e.g., MUSLIMS are terrorists). Notably, generic beliefs based on limited statistical evidence have also been observed in more controlled settings &ndash; for example, in laboratory studies where participants were given information about the prevalence of various traits in unfamiliar categories and then tested for their endorsement of the corresponding generic beliefs (e.g., Brandone et al. 2015; Cimpian et al. 2010). Thus, several types of evidence (obtained with participants spanning the range from 4-year-olds to adults) suggest a disconnect between endorsement of generic beliefs and the underlying statistical facts.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Related to the point about weak dependence on statistical evidence, once a generic belief is adopted, it is not easily falsified by exposure to evidence that contradicts it.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Even though generic beliefs are often adopted on the basis of little statistical evidence, they nevertheless suggest &ndash; for example, when expressed in conversation &ndash; that the relevant attributes are almost always present (Brandone et al. 2015; Cimpian et al. 2010).&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Generic beliefs have strong explanatory overtones. Specifically, generic claims are consistently interpreted as conveying deep, inherent properties of the relevant categories (e.g., Cimpian &amp; Cadena 2010; Cimpian &amp; Erickson 2012; Cimpian &amp; Markman, 2009, 2011; Gelman et al. 2010; Rhodes et al. 2012; see also Cimpian &amp; Salomon 2014). Thus, when we are exposed to generic beliefs about, say, WOMEN being bad at math or AFRICAN AMERICANS being violent, we are seldom neutral as to the source of the attributes described. Rather, we implicitly adopt an explanatory perspective on these attributes, viewing them as core, non-accidental aspects of what the relevant groups are like deep down. To the extent that many group characteristics are not actually due to their members&rsquo; biological makeup, this explanatory component of generic beliefs provides additional reasons to be suspicious of their match with the world.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;people&rsquo;s awareness of the statistical distributions of various traits may be less important to their social judgments than their generic beliefs are. Further research testing this (admittedly bold) claim would be in order, however&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Therefore, it is fair to suggest that generic stereotypes are inaccurate, while statistical stereotypes are. Because generic stereotypes are employed by people more, however, we can reasonably conclude that stereotype accuracy, at least in terms of the ways in which people process stereotypes, is low.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>  
+  
+</div>
+</body>
+</html>
