@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Intelligence</strong></span></span></span></h2>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>IQ and Crime</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Research suggests that intelligence is correlated with crime, most research suggesting independently of socio-economics status. However, it is arguably fallacious to use socioeconomic status as a control when looking at how IQ affects crime as IQ can also predict socioeconomic status, as seen later. Lower-IQ individuals tend to be more prone to committing crime.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0191886911000912" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Elaboration on the association between IQ and parental SES with subsequent crime</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;To test these hypotheses, representative US data (n = 11,437) were examined based on SES and IQ in 1981, and subsequent incarcerations from 1982 to 2006. Incarceration outcomes predicted included: incidence with binary logistic modeling, time to incarceration with Cox modeling and incarceration frequency with Poisson modeling. Results showed that low IQ, low SES and their interaction modestly predicted these three incarceration outcomes. These results were replicated among males, underprivileged groups and people with a last interview.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1745-9125.1996.tb01220.x" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>A META-ANALYSIS OF THE PREDICTORS OF ADULT OFFENDER RECIDIVISM: WHAT WORKS</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;One hundred and thirty-one studies produced 1,141 correlations with recidivism. The strongest predictor domains were criminogenic needs, criminal history/history of antisocial behavior, social achievement, age, gender, race, and family factors. Less robust predictors included intellectual functioning, personal distress factors, and socioeconomic status in the family of origin.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=2123&amp;context=jclc" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Study of the Relationship Between Intelligence and Crime, A</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;There appears to be a very definite relationship between criminality and deficiency of intelligence. This relationship becomes decidedly more marked the greater the deficiency.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Recidivism appears unrelated to the intellectual endowment since it occurs with essentially the same frequency among the mentally deficient offenders as among those of better intellectual capacities.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Economic distress has a subjective value, approximately equally so for each level of intelligence, in the causation of crime, and as such a factor, it appears to be entirely environmental in nature.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0191886909005169" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Correlations between estimates of state IQ and FBI crime statistics</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;In general, results suggest that the prevalence of both violent and property crimes is associated with lower state IQs.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>This relationship, however, is not perfectly linear. People who have very low intelligence have slightly lower criminality than people with fairly low intelligence, and people with very high intelligence have slightly higher criminality than people with fairly high intelligence. I&rsquo;m not entirely sure why this is the case. High levels of social isolation amongst very intelligent people could explain their higher proclivity to crime, but this is also something that exists amongst people who have very low intelligence. It probably has to do with several factors, and the exploration of them goes beyond my aims with this section.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S016028961500077X" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Intelligence and criminal behavior in a total birth cohort: An examination of functional form, dimensions of intelligence, and the nature of offending</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The current study contributes to this literature by examining the functional form of the IQ-offending association in a total birth cohort of Finnish males born in 1987. Criminal offending was measured with nine different indicators from official records and intelligence was measured using three subscales (verbal, mathematical, and spatial reasoning) as well as a composite measure. The results show consistent evidence of mostly linear patterns, with some indication of curvilinear associations at the very lowest and the very highest ranges of intellectual ability.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Regarding criminality among low-intelligence individuals:</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;It is worth noting that a similar pattern was also reported in at least one highly influential prior study of intelligence and criminal offending (Hirschi &amp; Hindelang, 1977). This convergence suggests that, although individuals with low IQ scores tend to engage in higher levels of criminal behavior, those with the very lowest scores may not be the most crime-prone.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;While only speculation, the pattern observed in our data may be related to individual differences in behavioral independence and opportunities to engage in criminal behavior. For example, individuals with severe intellectual deficits may require more supervision and assistance, thereby decreasing independence and, by extension, opportunities for criminal behavior. A large body of previous research has suggested that criminal offending is a group activity that occurs in the context of peer associations and other social interaction (Warr, 2002). It is possible that relative social isolation prevents individuals with intellectual disabilities from participating in crime as much as they would in the absence of the environmental constraints related to their disability. This topic also merits attention in future research.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Regarding criminality among high-intelligence individuals:</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;While only speculation, this finding is likely the result of small cell sizes, particularly when examining relatively rare forms of offending, such as high frequency offending (3.09% of the overall sample) and violent offending (4.29% of the overall sample). Pairing these rare offenses with intelligence scores falling in the outermost tails of the distribution is likely driving these somewhat unintuitive findings.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://clcjbooks.rutgers.edu/books/criminal-genius-a-portrait-of-high-iq-offenders/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>CRIMINAL GENIUS: A PORTRAIT OF HIGH-IQ OFFENDERS</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Using a sample drawn from members of a high IQ society, college students, and prisoners, Criminal Genius demonstrates that high-IQ offenders&mdash;defined as individuals with an IQ score of 130 or higher&mdash;may commit more offenses than lower IQ individuals.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Oleson uses Hirschi&rsquo;s social bond theory as a theoretical framework to explain his findings of high-IQ offenders, suggesting that high-IQ offenders, especially those with IQ scores of 150 or higher, may have weak social bonds. The interviews conducted for the study suggest, for example, that those with genius-level IQs may feel isolated since they are unable to develop meaningful relationships with individuals with lower IQs. While additional research on high-IQ offenders is needed, Criminal Genius provides a fascinating exploratory study into a very important and interesting topic.&rdquo;</em></span></span></span></li>
+</ul>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>IQ and Individual Income/Wealth</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>There is a relationship between an individual&rsquo;s intelligence level and their future income. People with higher intelligence levels tend to have higher incomes.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=d6fdb1364dc3e73c44441ba55a15f1b9bc49265a" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Relation Between Childhood IQ and Income in Middle Age</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Jencks&rsquo; (1972) classical study Inequality reported a correlation of 0.310 between IQ and income for men in the United States. The present study examines whether this result can be replicated in Britain. Data are reported for a national sample whose intelligence was obtained at the age of 8 years and whose income was obtained at the age 43 years. The correlations between IQ and income were 0.368 for men (n=1280) and 0.317 for women (n=1085).&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://ifstudies.org/blog/can-intelligence-predict-income" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Can Intelligence Predict Income?</u></span></span></span></a></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh4.googleusercontent.com/neVMDkh4a1PXeXo0N6hjOKO2UvxgD-KOkezXWb5TEL4t9FpKHKd7Rgbk-bCZrALHgmkmufpE8xxk0OYL47UhkZD320QdcQx2TC6PMFloAPDj2zv4x8LRMKY01hgXVWuD_Kin8yhu9G7up4X1pHgX6gcKyzBYSvrQrVfIgNehEdS0hfp4TpRqXI57lbJitA" style="height:285px; width:391px" /></span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">R-squared = 0.21</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Importantly, however, this relationship does not appear to translate perfectly in terms of total wealth. While intelligence predicts higher income, it has a quadratic relationship with financial distress. Therefore, it is not entirely clear how much net wealth is affected by intelligence.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0160289607000219" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Do you have to be smart to be rich? The impact of IQ on wealth, income and financial distress</u></span></span></span></a></p>
+
+<p><a href="https://news.osu.edu/you-dont-have-to-be-smart-to-be-rich-study-finds/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>You Don&#39;t Have To Be Smart To Be Rich, Study Finds</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Using the NLSY79, which tracks a large group of young U.S. baby boomers, this research shows that each point increase in IQ test scores raises income by between $234 and $616 per year after holding a variety of factors constant. Regression results suggest no statistically distinguishable relationship between IQ scores and wealth. Financial distress, such as problems paying bills, going bankrupt or reaching credit card limits, is related to IQ scores not linearly but instead in a quadratic relationship. This means higher IQ scores sometimes increase the probability of being in financial difficulty.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The findings revealed mixed results when it came to the link between intelligence and measures of financial distress. For example, the percentage of people who have maxed out their credit cards rises from 7.7 percent in those with an IQ of 75 and below to a peak of 12.1 percent among those with an IQ of 90. Then the percentage falls in an irregular pattern to 5.4 percent among those with an IQ of 115 before rising again.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Nonetheless, I would argue that this makes socioeconomic controls for relationships between IQ and other variables fallacious, because even if the intelligence-net wealth relationship is unclear such a relationship would be due to excess spending on goods rather than a dearth of goods to satisfy one&rsquo;s needs. Therefore, intelligence would predict a higher-quality environment for children to grow up in.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>IQ and Educational Attainment</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Intelligence is a major predictor of school achievements, partially through more intelligent people having higher levels of motivation to succeed in school environments.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S1747938X18300691" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The relative importance of intelligence and motivation as predictors of school achievement: A meta-analysis</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;This meta-analysis summarizes 74 studies (N = 80,145) that simultaneously examined the predictive power of intelligence and motivation for school achievement. First, we found average correlations between intelligence (r = 0.44) and motivation (r = 0.27) with school achievement and between intelligence and motivation (r = 0.17).&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Second, in a path model, 24% of variance in school achievement was explained overall. From this overall explained variance in school achievement, 66.6% was uniquely explained by intelligence and 16.6% uniquely by motivation, whereas the two predictors commonly explained 16.6%. Thus, the results show that both intelligence and motivation contribute substantial, unique shares to the prediction of school achievement as well as an additional share of commonly explained variance.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0160289615001269" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Intelligence and school grades: A meta-analysis</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The present study investigated the population correlation between standardized intelligence tests and school grades employing psychometric meta-analysis (Hunter &amp; Schmidt, 2004). The analyses involved 240 independent samples with 105,185 participants overall. After correcting for sampling error, error of measurement, and range restriction in the independent variable, we found a population correlation of &rho; = .54.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+</div>
+</body>
+</html>
