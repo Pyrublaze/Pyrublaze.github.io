@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Violent Resistance</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>I have concluded that violent resistance is ineffective in causing political change at the systems level and at the policy level, when compared to nonviolent civil resistance.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Research suggests that nonviolent campaigns to fundamentally restructure societies, whether through advocacy for democratization, expulsion of a military force, or succession, are more successful than violent campaigns in achieving their goals, and create more stability than violent campaigns.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.degruyter.com/document/doi/10.1515/peps-2017-0022/html" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Nonviolent Resistance and Peaceful Turnover of Power</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The results suggest that initiating a democratic transition through NVR is not necessarily beneficial for achieving the first peaceful turnover of power. However, given that a democratic regime achieved a successful first turnover of power, NVR substantially increases the probability of completing democratic consolidation through a second peaceful turnover of power.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://news.harvard.edu/gazette/story/2019/02/why-nonviolent-resistance-beats-violent-force-in-effecting-social-political-change/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Nonviolent resistance proves potent weapon</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Combining statistical analysis with case studies of specific countries and territories, Erica Chenoweth and Maria J. Stephan detail the factors enabling such campaigns to succeed and, sometimes, causing them to fail. They find that nonviolent resistance presents fewer obstacles to moral and physical involvement and commitment, and that higher levels of participation contribute to enhanced resilience, greater opportunities for tactical innovation and civic disruption (and therefore less incentive for a regime to maintain its status quo), and shifts in loyalty among opponents&#39; erstwhile supporters, including members of the military establishment.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Chenoweth and Stephan conclude that successful nonviolent resistance ushers in more durable and internally peaceful democracies, which are less likely to regress into civil war.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://blog.datawrapper.de/are-peaceful-protests-more-successful-than-violent-ones/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Are peaceful protests more successful than violent ones?</u></span></span></span></a></p>
+
+<p><a href="https://dataverse.harvard.edu/dataverse/navco" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>NAVCO Data Project</u></span></span></span></a></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh6.googleusercontent.com/zsyHMw3L7b9S5MW_vJHqN2sxCkH8fmu-dneDiGP3rxC1zOTFn13QMvXbaN19BN1bjDKqN62oV7qiqStvUIGUK-cJVGnS3UaiPpjl_fJHn2uHvHkWFkmAuxGMKDQOO_ht96DCksPkD7F_Q0T6hc-CYIucf02jBYwvWxtNR6j5uToP5VMEBveqRJOzykuCkA" style="height:378px; width:441px" /></span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The Nonviolent and Violent Campaigns and Outcomes (NAVCO) data project is the first of its kind to collect systematic data on both violent insurgencies and nonviolent civil resistance campaigns. The coverage is global but is excluded to maximalist campaigns (i.e. those seeking to overthrow an incumbent government, expel a foreign military occupation, or secede).&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>On a more micro level, there is evidence that nonviolent protests helped the civil rights movement in the 1960s, and the violent ones harmed the movement, and may have even swung the vote in favor of Richard Nixon in the 1968 federal election.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.cambridge.org/core/journals/american-political-science-review/article/agenda-seeding-how-1960s-black-protests-moved-elites-public-opinion-and-voting/136610C8C040C3D92F041BB2EFC3034C" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Agenda Seeding: How 1960s Black Protests Moved Elites, Public Opinion and Voting</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Evaluating black-led protests between 1960 and 1972, I find nonviolent activism, particularly when met with state or vigilante repression, drove media coverage, framing, congressional speech, and public opinion on civil rights. Counties proximate to nonviolent protests saw presidential Democratic vote share increase 1.6&ndash;2.5%. Protester-initiated violence, by contrast, helped move news agendas, frames, elite discourse, and public concern toward &ldquo;social control.&rdquo; In 1968, using rainfall as an instrument, I find violent protests likely caused a 1.5&ndash;7.9% shift among whites toward Republicans and tipped the election. Elites may dominate political communication but hold no monopoly.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>There is some research suggesting that the more recent BLM protests, when done more violently, are better at swaying public opinion in favor of the movement. However, the poor dataset utilized as well as the lack of statistical significance on most of the results suggests that this claim doesn&rsquo;t hold water in light of other evidence presented above.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.pnas.org/doi/10.1073/pnas.2118990119" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Protest movements involving limited violence can sometimes be effective: Evidence from the 2020 BlackLivesMatter protests</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;We found that the 2020 BLM protests were not associated with reduced prejudice among either liberals or conservatives. However, when containing a mix of nonviolence and violence, these protests predicted greater support for BLM&rsquo;s key policy goals among conservatives living in relatively liberal areas. As such, this research suggests that violent, disruptive actions within a broader nonviolent movement may affect those likely to be resistant to the movement.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This study uses the following </span></span></span><a href="https://acleddata.com/2021/05/25/a-year-of-racial-justice-protests-key-trends-in-demonstrations-supporting-the-blm-movement/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>ACLED data</u></span></span></span></a><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"> in their analysis, which finds that the vast majority of BLM protests are peaceful, and that in the minority of cases where it isn&rsquo;t peaceful, it isn&rsquo;t clear whether the instigators are the demonstrators, counter-protesters, or aggressive government action.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Therefore, this effect could be a product of counter-protestors or aggressive government action making the BLM movement look better</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This point, combined with the fact that nearly all of the effects are not statistically significant, suggests that this study doesn&rsquo;t hold much water in light of other research.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>Further Information:</em></span></span></span></p>
+
+<p><a href="https://news.northeastern.edu/2020/06/10/are-peaceful-protests-more-effective-than-violent-ones/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>ARE PEACEFUL PROTESTS MORE EFFECTIVE THAN VIOLENT ONES?</u></span></span></span></a></p>
+
+<p><br />
+&nbsp;</p>
+
+</div>
+</body>
+</html>
