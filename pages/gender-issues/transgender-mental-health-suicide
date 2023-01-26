@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Transgender Mental Health and Suicide</strong></span></span></span></h2>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Transgender people have poor mental health and higher suicide risk relative to the general population. In general, social support and gender-affirming care appear to be protective factors in this.</em></strong></span></span></span></p>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>Mental Health</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Transgender people have poor mental health relative to the general population. Discrimination appears to be a major predictor in negatively affecting mental health.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/26866637/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Discriminatory experiences associated with posttraumatic stress disorder symptoms among transgender adults</u></span></span></span></a><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">&nbsp;</span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;the 5 most frequently reported reasons for discrimination were: gender identity and/or expression (83%), masculine and feminine appearance (79%), sexual orientation (68%), sex (57%), and age (44%). Higher everyday discrimination scores (&beta; = 0.25; 95% CL [0.21, 0.30]) and greater number of attributed reasons for discrimination experiences (&beta; = 0.05; 95% CL [0.01, 0.10]) were independently associated with PTSD symptoms, even after adjusting for prior trauma experiences.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4808281/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Substance Use to Cope with Stigma in Healthcare Among U.S. Female-to-Male Trans Masculine Adults</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Overall, 14.1% of the sample reported having been refused care by a provider (enacted stigma), 32.8% reported delaying needed medical care when sick/injured, and 39.1% delayed routine preventive care (anticipated stigma). Having been refused care was significantly associated with avoidance of healthcare, including delaying needed medical care when sick/injured and delaying routine preventive medical care. Substance use to cope with mistreatment was self-reported by 27.6% of the sample. Enacted stigma by providers was associated with self-reported substance use to cope. Delays in both needed and preventive care (anticipated stigma) were highly associated with substance use, and attenuated the effect of enacted stigma.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7018588/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>High Burden of Mental Health Problems, Substance Use, Violence, and Related Psychosocial Factors in Transgender, Non-Binary, and Gender Diverse Youth and Young Adults</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Among TGD </em></span></span><span style="font-size:10pt"><span style="font-family:Arial">[transgender and gender diverse]</span></span><span style="font-size:10pt"><span style="font-family:Arial"><em> youth, we found high rates of depression and suicidality (ideation, plan, attempt), violence (trauma, victimization, childhood sexual abuse), and substance use (cigarette, alcohol, illicit drug use). With the exception of depression, transgender women and non-binary AMAB youth reported worse health outcomes than transgender men and non-binary AFAB youth. Non-binary AMAB youth reported the highest rates of certain outcomes, including traumatic experiences and suicidal ideation. TGD youth generally reported worse outcomes than cisgender sexual minority youth; these differences were less pronounced among AFAB youth.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5630273/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The mental health of Canadian transgender youth compared with the Canadian population</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Transgender youth had a higher risk of reporting psychological distress, self-harm, major depressive episode, suicidal ideation, and suicide attempts. Risk ratios ranged from 3.8 to 16.1. Transgender boys/men and non-binary youth were most likely to report self-harm and non-binary youth also reported lower overall mental health.&rdquo;</em></span></span></span></li>
+</ul>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>Suicide</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>There is increased suicidal ideation and attempts among transgender people. Notable risk factors include psychological distress, substance abuse, discrimination, familial rejection, conversion therapy, and physical abuse. Notable protective factors include supportive families, hormone therapy and/or surgical care, and living in a state with gender identity nondiscrimination laws.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://psycnet.apa.org/record/2017-31802-001" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Suicide in trans populations: A systematic review of prevalence and correlates</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Systematic review of 30 articles</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that discrimination increased suicidal ideation and attempts attempts of transgender people, while positive social interactions and timely access to interventions had positive effects.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">However, results clearly indicated a need to improve on individual and structural levels.</span></span></span></li>
+</ul>
+
+<p><a href="https://williamsinstitute.law.ucla.edu/wp-content/uploads/Suicidality-Transgender-Sep-2019.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>SUICIDE THOUGHTS AND ATTEMPTS AMONG TRANSGENDER ADULTS Findings from the 2015 U.S. Transgender Survey</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that general suicidality risk factors for transgender adults are psychological distress, alcohol or illicit drug use (excluding marijuana), and poor general health.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Unique suicidality risk factors include discrimination, familial rejection, conversion therapy, religious community rejection, experiences of violence, detransitioning, those who are not viewed as transgender (lower), those who do not disclose to others that they are transgender (lower), and minority stress.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Supportive families, hormone therapy and/or surgical care, and living in a state with gender identity nondiscrimination laws all reduced suicide.</span></span></span></li>
+</ul>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/17135115/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Attempted suicide among transgender persons: The influence of gender-based discrimination and victimization</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;increasing societal acceptance of the transgender community and decreasing gender-based prejudice may help prevent suicide in this highly stigmatized population.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4713016/pdf/lgbt.2013.0048.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Predictors of Suicidal Ideation in a Statewide Sample of Transgender Individuals</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Violence, discrimination, and transition status significantly predicted SI. Compared with individuals with no plans to transition, individuals with plans or who were living as their identified gender reported greater odds of lifetime SI&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S2211335516300882" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Physical victimization, gender identity and suicide risk among transgender men and women</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Trans men and women experience high levels of physical abuse and face multiple forms of discrimination. They are also at an increased risk for suicidal tendencies. Interventions that help transindividuals cope with discrimination and physical victimization simultaneously may be more effective in saving lives.</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Further Information:</em></strong></span></span></span></p>
+
+<p><a href="https://link.springer.com/article/10.1007/s10826-019-01339-2" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Predictors of Suicidal Ideation and Attempts among LGBTQ Adolescents: The Roles of Help-seeking Beliefs, Peer Victimization, Depressive Symptoms, and Drug Use</u></span></span></span></a></p>
+
+<p><a href="https://psycnet.apa.org/fulltext/2015-39781-006.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>&ldquo;Without This, I Would for Sure Already Be Dead&rdquo;: A Qualitative InquiryRegarding Suicide Protective Factors Among Trans Adults</u></span></span></span></a></p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/19568976/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Psychiatric impact of gender-related abuse across the life course of male-to-female transgender persons</u></span></span></span></a></p>
+
+<p><a href="https://www.tandfonline.com/doi/full/10.1080/08964289.2015.1028322#.VkeHm_lViko" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Individual- and Structural-Level Risk Factors for Suicide Attempts Among Transgender Adults</u></span></span></span></a></p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/29528801/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Transphobia-Based Violence, Depression, and Anxiety in Transgender Women: The Role of Body Satisfaction</u></span></span></span></a></p>
+
+<p><a href="https://onlinelibrary.wiley.com/doi/10.1111/sltb.12233" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Factors Associated with Suicidality Among a National Sample of Transgender Veterans</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3662085/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Suicide and Suicide Risk in Lesbian, Gay, Bisexual, and Transgender Populations: Review and Recommendations</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3722435/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Suicide Protective Factors Among Trans Adults</u></span></span></span></a></p>
+
+<p><a href="https://bmcpublichealth.biomedcentral.com/track/pdf/10.1186/s12889-015-1867-2.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Intervenable factors associated with suicide risk in transgender persons: a respondent driven sampling study in Ontario, Canada</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5227923/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Transgender Health: New Zealand&rsquo;s Innovative Statistical Standard for Gender Identity</u></span></span></span></a></p>
+
+<p><a href="https://williamsinstitute.law.ucla.edu/wp-content/uploads/Trans-GNC-Suicide-Attempts-Jan-2014.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Suicide Attempts among Transgender and Gender Non-Conforming Adults</u></span></span></span></a></p>
+
+<p><a href="https://publications.aap.org/pediatrics/article-abstract/123/1/346/71912/Family-Rejection-as-a-Predictor-of-Negative-Health?redirectedFrom=fulltext" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Family Rejection as a Predictor of Negative Health Outcomes in White and Latino Lesbian, Gay, and Bisexual Young Adults</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5178031/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Suicide and Suicidal Behavior among Transgender Persons</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6317573/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Transgender Adolescent Suicide Behavior</u></span></span></span></a></p>
+
+<p><a href="https://academic.oup.com/book/24487/chapter-abstract/187583802?redirectedFrom=fulltext&amp;login=false" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>14 PTSD in the Lesbian, Gay, Bisexual, and Transgender (LGBT) Population</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4882090/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Psychiatric Diagnoses and Comorbidities in a Diverse, Multicity Cohort of Young Transgender Women</u></span></span></span></a></p>
+
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0190740919301902?via%3Dihub" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>School safety experiences of high school youth across sexual orientation and gender identity</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5905855/pdf/lgbt.2017.0011.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Targeted Victimization and Suicidality Among Trans People: A Web-Based Survey</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6102088/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Risk and Protective Factors for Self-Harm in a Population-Based Sample of Transgender Youth</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5178031/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Suicide and Suicidal Behavior among Transgender Persons</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4713016/pdf/lgbt.2013.0048.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Predictors of Suicidal Ideation in a Statewide Sample of Transgender Individuals</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5905855/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Targeted Victimization and Suicidality Among Trans People: A Web-Based Survey</u></span></span></span></a><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">&nbsp;</span></span></span></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6798808/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Suicidal Thoughts and Behaviors Among Transgender Adults in Relation to Education, Ethnicity, and Income: A Systematic Review</u></span></span></span></a></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4716648/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Stigmatization and Mental Health in a Diverse Sample of Transgender Women</u></span></span></span></a></p>
+
+<p><a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2019.01453/full" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Health of Non-binary and Genderqueer People: A Systematic Review</u></span></span></span></a></p>
+
+<p><a href="https://www.tandfonline.com/doi/abs/10.1080/00918369.2017.1391552" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Suicidal and Help-Seeking Behaviors Among Youth in an Online Lesbian, Gay, Bisexual, Transgender, Queer, and Questioning Social Network</u></span></span></span></a></p>
+
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/30699856/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Suicidal ideation and attempted suicide amongst Chinese transgender persons: National population study</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc">&nbsp;</li>
+</ul>
+  
+</div>
+</body>
+</html>
