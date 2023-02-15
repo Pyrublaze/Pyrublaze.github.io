@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Gender Gap in Housing</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Men are disproportionately discriminated against in terms of housing, due to preferences rather than statistical discrimination. This suggests that these are irrational and unjust biases rather than justified actions undertaken by rental agents.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://crese.univ-fcomte.fr/uploads/wp/WP-2018-04.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Ethnic and Gender Discrimination in Rental Housing Market: Evidence from Meta-Analysis of Correspondence Tests, 2006-2017</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Meta-analysis and literature review of 25 studies in OECD countries from 2006-2017</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that discrimination in the rental housing market is against men and minorities.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This discrimination mainly comes from agents&rsquo; preferences rather than statistical discrimination</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Real estate agents discriminate significantly less minority applicants than private landlords do.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This is discrimination in the form of being chosen by real estate agents or private landlords</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+</div>
+</body>
+</html>
