@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Gender Gap in School Punishment</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>There exists gender gaps in school punishment which unfairly harm boys even after controlling for identical behavior. This occurs for both corporal punishment and other discipline practices.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Corporal punishment broadly speaking is the use of physical force as a means of punishment for an infraction. There is a gender gap which disadvantages boys with regards to corporal punishment in schools. This exists even after controlling for severity and frequency of punishable behaviors, and persists even in places where it is banned.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://journals.sagepub.com/doi/abs/10.1177/1524838020925787" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>A Systematic Review of Corporal Punishment in Schools: Global Prevalence and Correlates</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Systematic review of 53 papers</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that school corporal punishment is prevalent worldwide including where bans are in place, and does not appear to be decreasing over time.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">It is associated with physical, academic, mental health, and behavioral problems for children</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Boys, black students (in the US), and students exposed to violence at home were most at risk of corporal punishment</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Schools with high rates of other disciplinary practices were more likely to use corporal punishment, while those who employed a mental health professional and trained staff in safety procedures were less likely to use corporal punishment.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Teacher attitudes favoring corporal punishment, and their use of violence in other contexts, increased risk</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Low SES of the student or school environment increased risk, while high levels of state social capital reduced risk.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.mcgill.ca/connectionslab/files/connectionslab/spr193shaw_0.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>RACE AND GENDER BIAS IN THE ADMINISTRATION OF CORPORAL PUNISHMENT&nbsp;</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">After controlling for severity and frequency of punishable behaviors, there was a statistically significant relationship between gender and corporal punishment</span></span></span></li>
+</ul>
+
+<p><a href="https://www.tandfonline.com/doi/abs/10.1080/00098655.1991.9955892" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Corporal Punishment: Used in a Discriminatory Manner?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds gender bias in corporal punishment</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>For the possible exception of preschools, boys are in general disciplined more than girls even after controlling for the type of infraction. These punishments however vary by the gendered nature of the behavior. Boys are punished more for aggressive behavior, while girls are punished more for attendance and dress code.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://scholarworks.calstate.edu/downloads/44558k98w" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Gender Inequities in High School Discipline Practices</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The results showed a clear inequity between the genders, in that boys and girls were more rigidly disciplined in the stereotypical behaviors of their gender, with boys receiving more referrals with aggressive behaviors and girls being cited more readily for referrals for attendance and dress code.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.923.5562&amp;rep=rep1&amp;type=pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Parsing Disciplinary Disproportionality: Contributions of Infraction, Student, and School Characteristics to Out-of-School Suspension and Expulsion</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Type of infraction; race, gender, and to a certain extent socioeconomic status at the individual level; and, at the school level, mean school achievement, percentage Black enrollment, and principal perspectives all contributed to the probability of out-of-school suspension or expulsion.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>There was one study which looked at recommendations of preschool expulsions and suspensions, and found no gender disparity. I suspect the reason for this is due to the visual and possibly social differences between boys and girls being relatively minimal at an early age and becoming more exaggerated over time, allowing for over-extending biases to manifest as children age.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.researchconnections.org/childcare/resources/32604" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Do Early Educators&rsquo; Implicit Biases Regarding Sex and Race Relate to Behavior Expectations and Recommendations of Preschool Expulsions and Suspensions?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;No differences were found based on recommendations regarding suspension or expulsion, except that Black teachers in general recommended longer periods of disciplinary exclusion regardless of child gender/race. Recommendations for future research and policy regarding teacher training are offered.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>Further Information:</em></span></span></span></p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5766273/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Corporal Punishment in U.S. Public Schools: Prevalence, Disparities in Use, and Status in State and Federal Policy</u></span></span></span></a></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+</div>
+</body>
+</html>
