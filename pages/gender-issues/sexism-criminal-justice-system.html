@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Sexism in the Criminal Justice System</strong></span></span></span></h2>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>Arrest and Policing Bias</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>All else equal, men are more likely to be arrested, are more aggressively policed on average than women, and are more likely to have force initiated on them. Some of these results when tested have been found to be robust to publication bias, and these results are consistently found in a variety of studies. Women appear to be held to much lower standards by police in a variety of circumstances.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0047235214000890" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Effects of Suspect Characteristics on Arrest: A Meta-Analysis</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Meta-analysis on the effect of suspect characteristics on arrest</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that black individuals, males, and hispanic individuals were significantly more likely to be arrested than white individuals, females, and non-Hispanic individuals</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">These effects persisted across the majority of moderator categories.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The findings with regard to gender here show that men are being treated more harshly now than they were in the 1960&rsquo;s through the 1980&rsquo;s. The moderator analysis showed that gender was significant for studies using data from the 1990&rsquo;s and the 2000&rsquo;s, but not in earlier studies. This appears to be the opposite of what was found by the analysis conducted by Bontrager and her colleagues. The gender findings presented here seem to suggest that the system may in fact be loosely coupled.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.848.1523&amp;rep=rep1&amp;type=pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Selective Responses to Threat: The Roles of Race and Gender in Decisions to Shoot</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that using computerized simulation, people were biased away from shooting white female suspects in favor of shooting white male suspects.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">White participants were biased toward shooting black men but biased away from shooting black women and white ingroup members.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.tandfonline.com/doi/abs/10.1080/07418820400095741" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Examining the influence of drivers&#39; characteristics during traffic stops with police: Results from a national survey</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that young black and hispanic males are at increased risk for citations, searches, arrests, and uses of force after other extralegal and legal characteristics are controlled.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">However, they weren&rsquo;t any more likely to have been carrying contraband</span></span></span></li>
+</ul>
+
+<p><a href="https://www.researchgate.net/profile/Volkan-Topalli/publication/247744878_The_Impact_of_Implicit_Stereotyping_on_Offender_ProfilingUnexpected_Results_From_an_Observational_Study_of_Shoplifting/links/00b49534d42678e6fd000000/The-Impact-of-Implicit-Stereotyping-on-Offender-ProfilingUnexpected-Results-From-an-Observational-Study-of-Shoplifting.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Impact of Implicit Stereotyping on Offender Profiling: Unexpected Results From an Observational Study of Shoplifting</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that looking at shoplifting, when trained observers were allowed to deviate from a clearly specified random selection protocol, oversampled shoppers on the basis of race, gender, and perceived age, beyond the degree to which profiling could be rationally justified to be engaged with.</span></span></span></li>
+</ul>
+
+<p><a href="https://domesticviolenceresearch.org/pdf/PASK.Tables12.Revised.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Gender and Racial/Ethnic Differences in Criminal Justice Decision Making in Intimate Partner Violence Cases</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that men are disproportionately arrested and prosecuted compared to women in a variety of areas, and in ways that are not accounted for by differential circumstances.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0047235204000637?via%3Dihub" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Sex differences in the likelihood of arrest</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Controlling for offense seriousness and a variety of other factors, logistic regression results showed that the probability of arrest for females was 28 percent lower for kidnapping, 48 percent lower for forcible fondling, 9 percent lower for simple assault, and 27 percent lower for intimidation than for males.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Overall, these findings suggest that the lower arrest rate for females is partly the result of leniency shown to women by law enforcement personnel.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://link.springer.com/article/10.1007/s12103-014-9278-y" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Just Following Orders: A Meta-Analysis of the Correlates of American Police Officer Use of Force Decisions</u></span></span></span></a></p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><img src="https://lh4.googleusercontent.com/6iaTGwLRxRRuip8cPOoL9ze366MiL2ADi46wZPrpPI8BT4njp82rImrPRALErv5KxoYJexq3sE0ZNCE64yhPZPdYHpRrnW7eIjX-s2ENkJXxZNuB0Rv7lKuAMA-8qf1BGm-bYxgPu6YUyqkWdViJD1A" style="height:303px; width:466px" /></span></span></span></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Even after controlling for publication bias there exists a gender disparity in the likelihood of use of force by police officers after controls are included</span></span></span></li>
+</ul>
+
+<p><a href="https://www.tandfonline.com/doi/abs/10.1080/07418820701485601" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Does the Criminal Justice System Treat Domestic Violence and Sexual Assault Offenders Leniently?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;We examine whether men who physically assault their female partners or who commit sexual assault receive more lenient treatment than offenders who commit other types of assaults. Analyses of the National Violence Against Women Survey do not support these hypotheses. Rather, they suggest that women who assault their male partners are particularly likely to avoid arrest.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>Further Information:</em></span></span></span></p>
+
+<p><a href="https://www.pnas.org/content/pnas/116/34/16793.full.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Risk of being killed by police use of force in the United States by age, race&ndash;ethnicity, and sex</u></span></span></span></a></p>
+
+<p><a href="https://bjs.ojp.gov/library/publications/contacts-between-police-and-public-2015" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Contacts Between Police and the Public, 2015</u></span></span></span></a></p>
+
+</div>
+</body>
+</html>
