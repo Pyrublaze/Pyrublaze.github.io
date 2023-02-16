@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Gender Gap in Politics</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Women perform just as well when they run for public office, but there is a gender gap in political ambition. This is due to a combination of women being less likely to be encouraged or recruited for office, and that public office careers have traits which women tend to find undesirable.&nbsp;</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.brookings.edu/wp-content/uploads/2016/06/05_women_lawless_fox.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Why Are Women Still Not Running for Public Office?</u></span></span></span></a></p>
+
+<p><a href="https://www.american.edu/spa/wpi/upload/2012-men-rule-report-web.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Men Rule The Continued Under-Representation of Women in U.S. Politics</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">When women run for public office, they perform just as well as men, but they remain severely under-represented still</span></span></span></li>
+</ul>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This is because they don&rsquo;t run for office</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">There is a substantial gender gap in political ambition.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that this holds regardless of age, partisan affiliation, income and profession</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This is due to several factors:</span></span></span>
+	<ul>
+		<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Women are less likely to than men to be willing to endure the rigors of a political campaign</span></span></span></li>
+		<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">They are less likely to be recruited to run for office</span></span></span></li>
+		<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">They are less likely to have the freedom to reconcile work and family obligations with a political career</span></span></span></li>
+		<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">They are less likely to think they are qualified</span></span></span></li>
+		<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">They are less likely to perceive a fair political environment</span></span></span></li>
+		<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Women are less likely to receive the suggestion to run for public office</span></span></span></li>
+	</ul>
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>Political Quotas</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>I am generally for a gender quota in political office, to help increase representation of women to be more proportional to men than is the case currently in most if not all political offices. Quotas have neutral to positive effects on the quality of politicians, and they normalize women getting into politics.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Gender quotas can take several forms. They can be reserved seats in political office, they can be quotas for candidates on ballots, or they can be voluntary quotas for candidates in political parties.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.idea.int/data-tools/data/gender-quotas/quotas" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>GENDER QUOTAS DATABASE</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">The core idea behind gender quotas in politics is to ensure representation of women in politics. There are three major ways in which this is done:</span></span></span>
+
+	<ul>
+		<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Reserved seats (constitutional and/or legislative)</span></span></span></li>
+		<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Legal candidate quotas (constitutional and/or legislative)</span></span></span></li>
+		<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Political party quotas (voluntary)</span></span></span></li>
+	</ul>
+	</li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">These can ensure women make up 20, 30, 40, or 50% of the body in question</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>These quotas increase the representation of women within politics.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.3162/036298009787500330" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Making Quotas Work: The Effect of Gender Quota Laws On the Election of Women</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;My results show that quotas that require more women to be on party ballots lead to the election of more women, independent of placement mandates and enforcement mechanisms, but rules governing where female candidates are listed on the ballot and sanctions for noncompliance amplify that effect. Candidate quotas can increase women&#39;s representation, but the quotas&#39; effectiveness depends on their design.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Under such quota systems, the experience and decision-making ability of the candidates, primarily in terms of education, is the same if not better. This is because mediocre male politicians are pushed out of offices as a result of quotas.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://academic.oup.com/book/6058/chapter/149497081" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Quotas and Qualifications in Uganda</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The statistical data suggests that, on the vast majority of measures, quota women do not differ significantly from other MPs. Indeed, on some indicators they appear to be better prepared for office than non-quota legislators. The evidence thus demonstrates that quotas have not advanced women that are less qualified or more elite than other MPs.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.cambridge.org/core/journals/politics-and-gender/article/second-among-unequals-a-study-of-whether-frances-quota-women-are-up-to-the-job/91FA7B3D678ECBAC5472C8C58E650BA6" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Second Among Unequals? A Study of Whether France&#39;s &ldquo;Quota Women&rdquo; are Up to the Job</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The slightly different profiles of men and women politicians reflect wider barriers to women&#39;s political careers that would not have been overcome without the parity law. Once women are elected, the volume of activity shows no evidence of being gendered, suggesting that women are as effective in the job as men. These findings imply that sex is a barrier to entry but not to performance, reinforcing claims for the use of quotas to overcome entry barriers and negating claims that quotas produce second-rate parliamentarians.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.aeaweb.org/articles?id=10.1257/aer.20160080" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Gender Quotas and the Crisis of the Mediocre Man: Theory and Evidence from Sweden</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;We ask how competence was affected by a zipper quota, requiring local parties to alternate men and women on the ballot, implemented by the Social Democratic Party in 1993. Far from being at odds with meritocracy, this quota raised the competence of male politicians where it raised female representation the most. We argue that resignation of mediocre male leaders was a key driver of this effect.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0047272714001480" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Gender quotas and the quality of politicians</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;We analyze the effects of the introduction of gender quotas in candidate lists on the quality of elected politicians, as measured by the average number of years of education.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;We find that gender quotas are associated with an increase in the quality of elected politicians, with the effect ranging from 0.12 to 0.24 years of education. This effect is due not only to the higher number of elected women, who are on average more educated than men, but also to the lower number of low-educated elected men. The positive effect on quality is confirmed when we measure the latter with alternative indicators, it persists in the long run and it is robust to controlling for political ideology and political competition.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Gender quotas help to normalize women in politics, having a cultural effect separate from the policy itself, helping to get more women into office through increasing the interest of potential female candidates and increasing the number of people who vote for female candidates.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://academic.oup.com/qje/article/124/4/1497/1917190" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Powerful Women: Does Exposure Reduce Bias?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;After ten years of quotas, women are more likely to stand for, and win, elected positions in councils required to have a female chief councilor in the previous two elections. We provide experimental and survey evidence on one channel of influence&mdash;changes in voter attitudes. Prior exposure to a female chief councilor improves perceptions of female leader effectiveness and weakens stereotypes about gender roles in the public and domestic spheres.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Female legislators tend to place higher emphasis on women&rsquo;s issues and children/family concerns, but also on general economic and health issues. They are more likely to cause increases in government expenditures towards public health and decreases in government expenditures towards military and other areas.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1540-5907.2006.00202.x" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Still Supermadres? Gender and the Policy Priorities of Latin American Legislators</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;I argue that sex role changes in Latin America over the past 35 years have led to changes in how female legislators perceive their political roles, and consequently, changes in their attitudes and behavior. Specifically, female legislators will place higher priority than male legislators on women&#39;s issues and children/family concerns, but their attitudes in other areas, such as education, health, the economy, agriculture, and employment, will be similar. However, I expect that gender dynamics in the legislative arena lead to marginalization of women such that gender differences will emerge for bill initiation behavior where they did not appear for attitudes. I test this using a survey of legislators&#39; issue preferences and archival data on the bills that legislators sponsor and find statistical support for the hypotheses.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p><a href="http://uu.diva-portal.org/smash/get/diva2:1246248/FULLTEXT01" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Quota Shocks: Electoral Gender Quotas and Government Spending Priorities Worldwide</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;We find that substantial quota shocks - those associated with a large increase in women&#39;s parliamentary representation - are followed by increased government expenditures towards public health. Further, we find that increases in health spending are offset by relative decreases in military spending and other spending categories. Our findings provide strong evidence that quota policies influence government priorities in historically feminized policy areas, but principally when they are complied with and have substantial numerical consequences.&rdquo;</em></span></span></span></li>
+</ul>
+
+</div>
+</body>
+</html>
