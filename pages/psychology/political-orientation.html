@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Political Orientation</strong></span></span></span></h2>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>Ideology and Personality</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Right-wingers tend to have lower openness and higher conscientiousness compared to left-wingers. There is also some evidence suggesting right-wingers also tend to have lower neuroticism and agreeableness, and higher extraversion. The correlation between personality traits and political orientation is a function of an innate common genetic factor, as opposed to being causal in one direction or another. Conservatives and liberals also have equal levels of narcissism, although they differ in the ways in which narcissists of each orientation tend to express their narcissism.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ajps.12380" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Narcissism and Political Orientations</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that conservatives and liberals are equally narcissistic, although differ in their narcissistic traits.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Conservatives are more entitled, while liberals are more exhibitionistic.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0092656612001158?via%3Dihub" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Personality and political orientation: Meta-analysis and test of a Threat-Constraint Model</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Meta-analysis</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Conservatism was weakly negatively associated with openness and weakly positively associated with conscientiousness.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">The association between openness and political orientation varied substantially among levels of systemic threat and instability as indexed by unemployment and national homicide rates, with a moderate association when systemic threat was low and a low association when systemic threat was high.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Neuroticism was negatively associated with political conservatism</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">There was no relationship between agreeableness or extraversion and political orientation</span></span></span></li>
+</ul>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3809096/#:~:text=The%20results%20suggest%20that%20personality,innate%20common%20underlying%20genetic%20factor" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Correlation not Causation: The Relationship between Personality Traits and Political Ideologies</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Uses a causal model to assess the relationship between personality traits and political ideologies</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that the correlation between the two is a function of an innate common underlying genetic factor, as opposed to personality causing someone to adopt specific political ideologies</span></span></span></li>
+</ul>
+
+<p><a href="https://engagedscholarship.csuohio.edu/cgi/viewcontent.cgi?article=1109&amp;context=tdr" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Big Five Personality Traits and Political Orientation: An Inquiry into Political Beliefs</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Extraversion is weakly positively associated with conservatism.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Agreeableness and neuroticism are positively associated with liberalism</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>Further Information:</em></span></span></span></p>
+
+<p><a href="https://www.annualreviews.org/doi/10.1146/annurev-polisci-051010-111659" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Big Five Personality Traits in the Political Arena</u></span></span></span></a></p>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>Ideology and Intelligence</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Libertarians tend to be the most intelligent, followed by liberals and then conservatives. This appears to be due to beliefs in personal and economic liberalism both being correlated with intelligence. However, this effect varies across cultures, and there is evidence to suggest that a lot of the relationship between ideology and intelligence is a function of which beliefs are mainstream, with mainstream beliefs being associated with higher intelligence. More intelligent people tend to be more ideologically intolerant.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.researchgate.net/profile/Emil-O-W-Kirkegaard/publication/313890514_Cognitive_Ability_and_Political_Preferences_in_Denmark/links/58adc44b92851cf7ae85ac79/Cognitive-Ability-and-Political-Preferences-in-Denmark.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Cognitive Ability and Political Preferences in Denmark</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Personal and economic liberalism were weakly positively correlated with intelligence</span></span></span></li>
+</ul>
+
+<p><a href="https://journals.sagepub.com/doi/abs/10.1002/per.2027" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The Association of Cognitive Ability with Right&ndash;Wing Ideological Attitudes and Prejudice: A Meta&ndash;Analytic Review</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Meta-analysis</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that lower cognitive ability is associated with a stronger endorsement of right-wing attitudes and greater prejudice</span></span></span></li>
+</ul>
+
+<p><a href="https://journals.sagepub.com/doi/full/10.1177/01461672211046808" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Do Smarter People Have More Conservative Economic Attitudes? Assessing the Relationship Between Cognitive Ability and Economic Ideology</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that higher cognitive ability is associated with conservative views on economic issues</span></span></span></li>
+</ul>
+
+<p><a href="https://psycnet.apa.org/record/2020-55298-001" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Partisan ideological attitudes: Liberals are tolerant; the intelligent are intolerant</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that more intelligent people are more ideologically intolerant than the less intelligent</span></span></span></li>
+</ul>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0160289614000373" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Verbal intelligence is correlated with socially and economically liberal beliefs</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that individuals who identify as republican have slightly higher verbal intelligence than those who identify as democrat, by 2-5 IQ points</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This can be reconciled with research suggesting that conservatives are less intelligent than liberals as higher intelligence among classically liberal republicans who are both socially and economically liberal compensates for lower intelligence among socially conservative republicans.</span></span></span></li>
+</ul>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0160289611001425" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Political orientations, intelligence and education</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Study in Brazil</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Mean IQ of those center-right was 105, followed by centrists at 103, center-left at 101, clearly left at 98, and right at 95.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Intelligence is positively related to caring about politics</span></span></span></li>
+</ul>
+
+<p><a href="https://www.psychologytoday.com/ca/blog/unique-everybody-else/201305/intelligence-and-politics-have-complex-relationship" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Intelligence and Politics Have a Complex Relationship</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Research has suggested that cultural context plays a role in the relationship between intelligence and politics, as in South Africa where right-wing values are the social norm right-wingers have higher intelligence</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">In places like Brazil where extremism is in its history, people might be wary of extreme views and thus may support more center-leaning perspectives.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Categorizing people are simply generally liberal or conservative in studies on intelligence and politics may mask differences in people&rsquo;s views on social or economic issues, where social issues are given more weight than liberal issues.</span></span></span></li>
+</ul>
+
+<p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0042366" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Understanding Libertarian Morality: The Psychological Dispositions of Self-Identified Libertarians</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Looks at the psychology of libertarian morality</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that libertarians showed stronger endorsement of individual liberty as a guiding moral principle and lower in all others, a relatively cerebral rather than emotional cognitive style, and lower interdependence and social relatedness</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Libertarians did better on a cognitive reflection task compared to liberals and conservatives, which measures intelligence and a person&rsquo;s ability to suppress an intuitive response in service of the cognitive reasoning required to solve the problems</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230502215823-1.png" style="height:1382px; width:1683px" /></span></p>
+
+<p><a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.412.8160&amp;rep=rep1&amp;type=pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Intelligence makes people think like economists: Evidence from the General Social Survey</u></span></span></span></a></p>
+
+<p><a href="https://www.econlib.org/archives/2015/01/intelligence_ma_1.html" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Intelligence Makes People Think Like Economists: Further Evidence</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">People who are more intelligent tend to have more libertarian economic views</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>Further Information:</em></span></span></span></p>
+
+<p><a href="https://journals.sagepub.com/doi/abs/10.1177/0956797611421206" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Bright Minds and Dark Attitudes: Lower Cognitive Ability Predicts Greater Prejudice Through Right-Wing Ideology and Low Intergroup Contact</u></span></span></span></a></p>
+
+<p><a href="https://news.osu.edu/brain-scans-remarkably-good-at-predicting-political-ideology/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Brain scans remarkably good at predicting political ideology</u></span></span></span></a></p>
+
+<p>&nbsp;</p>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>Ideology and Well-Being</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Conservatives tend to be happier, have more meaning in life, and are healthier. These effects are due to a number of causes, most notably a belief in personal agency being a cause of the happiness and health effects.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://sci-hub.se/https://doi.org/10.1016/j.jrp.2011.12.009" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Conservatives are happier than liberals, but why? Political ideology, personality, and life satisfaction</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Political conservatives are happier than liberals</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This is due to belief in personal agency, more positive outlook on life, more transcendent moral beliefs (religiosity, moral clarity, intolerance of transgressions), and a generalized belief in fairness.</span></span></span></li>
+</ul>
+
+<p><a href="https://journals.sagepub.com/doi/10.1177/1948550618768241" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Conservatives Report Greater Meaning in Life Than Liberals</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Conservatives report they have greater meaning in life</span></span></span></li>
+</ul>
+
+<p><a href="http://sciencedirect.com/science/article/abs/pii/S0191886919300054" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Political orientation and physical health: The role of personal responsibility</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Political conservatism is associated with greater physical health through it promoting personal responsibility</span></span></span></li>
+</ul>
+
+<p><a href="https://www.science.org/doi/10.1126/science.1260817" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Conservatives report, but liberals display, greater happiness</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Political conservatives report greater happiness, but liberals more frequently used positive emotional language in their speech and smiled more intensely and genuinely in photographs</span></span></span></li>
+</ul>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2912481/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Are republicans healthier than democrats?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Republicans are less likely to smoke and report poor health and democrats and independents</span></span></span></li>
+</ul>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>Ideology and Physical Appearance</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Right-wingers tend to be more attractive than left-wingers, partially due to attractive people being more likely to support inequality, as they earn more. Appearance is a substantial predictor of political ideology, as facial recognition technology can correctly identify political orientation in liberal-conservative face pairs significantly greater than at random.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:justify"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7801376/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Facial recognition technology can expose political orientation from naturalistic facial images</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Facial recognition technology can correctly classify political orientation in 72% of liberal-conservative face pairs, better than human accuracy which is 55% or a personality questionnaire (66%). Accuracy was at 69% when controlling for age, gender, and ethnicity.</span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><a href="https://sci-hub.ru/https://doi.org/10.1016/j.obhdp.2014.03.002" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Mirror, mirror on the wall, who&rsquo;s the fairest of them all? Thinking that one is attractive increases the tendency to support inequality</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Self-perceived attractiveness increases one&rsquo;s tendency to support inequality</span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><a href="https://sci-hub.ru/https://doi.org/10.1017/pls.2017.18" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Effects of physical attractiveness on political beliefs</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">After controlling for SES, more attractive individuals are more likely to report higher levels of political efficacy, identify as conservative, and identify as republican.</span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><a href="https://sci-hub.ru/https://doi.org/10.1016/j.jpubeco.2016.12.008" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>The right look: Conservative politicians look better and voters reward it</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Conservative politicians tend to be more attractive, which increases their success in elections</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">The former finding is consistent with the idea that beautiful people earn more which makes them less inclined to support redistribution</span></span></span></li>
+</ul>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>Heritability of Political Views</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Political views appear to be roughly 40% heritable, if not more. This varies heavily with political sophistication, with people high in political sophistication having an estimated heritability of political views of 74%. However, there is significant genetic overlap between political views and a variety of psychological traits.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://link.springer.com/article/10.1007/s10519-014-9648-8" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Genetic Influences on Political Ideologies: Twin Analyses of 19 Measures of Political Ideologies from Five Democracies and Genome-Wide Findings from Three Populations</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds an aggregate estimate that 40% of the variance in social and political attitudes were explained by genetic influences</span></span></span></li>
+</ul>
+
+<p><a href="https://www.cambridge.org/core/journals/journal-of-experimental-political-science/article/genes-ideology-and-sophistication/91C7C343BBA8801732F62E7D55B16676" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Genes, Ideology, and Sophistication</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Estimates a 57% population-level heritability for socio-political conservatism</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This varies heavily with political sophistication. Heritability is 74% for top fifth of population in political sophistication and 29% for bottom fifth</span></span></span></li>
+</ul>
+
+<p><a href="https://www.pewresearch.org/short-reads/2013/12/09/study-on-twins-suggests-our-political-beliefs-may-be-hard-wired/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Study on twins suggests our political beliefs may be hard-wired</u></span></span></span></a></p>
+
+<p><span style="color:#ffffff"><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230502215823-2.png" style="height:562px; width:310px" /></span></p>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S2352154620300553" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>On the genetic basis of political orientation</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Political orientation has a notable genetic basis, although there is genetic overlap between political orientation and psychological traits.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This includes cognitive ability, social fear, big five personality, need for cognition and need for cognitive closure, need to evaluate, religiosity, social dominance orientation, and right-wing authoritarianism</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+  
+</div>
+</body>
+</html>
