@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Race and Housing Discrimination</strong></span></span></span></h2>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>Mortgage Discrimination</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>There is evidence of mortgage discrimination occurring against blacks who have identical credit profiles, in terms of rejecting more profiles and having higher mortgage interest rates. Evidence as shown later suggests that this is due to statistical discrimination.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://link.springer.com/article/10.1007/s12552-019-09276-x" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Racial Discrimination in the U.S. Housing and Mortgage Lending Markets: A Quantitative Review of Trends, 1976&ndash;2016</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Looks at time series results from 16 field experiments of housing discrimination and 19 observational studies of mortgage lending discrimination</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds evidence of a decline in housing discrimination from the late 1970s to the present</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">The decline is strongest for discrimination involving direct denial of housing availability, and weaker for measures reflecting the number of units recommended and inspected, and significant discrimination remains for these outcomes.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Racial gaps in loan denial have declined only slightly, and racial gaps in mortgage cost (interest rate) have not declined at all, suggesting persistent discrimination</span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><a href="https://www.jstor.org/stable/25764804" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff"><u>What&#39;s in a Picture? Evidence of Discrimination from Prosper.com</u></span></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff">Finds that loan listings with blacks in the attached picture are 25-35% less likely than whites with similar credit profiles</span></span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><a href="https://sci-hub.ru/https://doi.org/10.1007/s11146-014-9473-0" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff"><u>Racial discrepancy in mortgage interest rates</u></span></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Using data from three waves of the U.S. Survey of Consumer Finance, our results suggest that black borrowers on average pay about 29 basis points more than comparable white borrowers. We also find that rate disparity mainly occurs to young borrowers with low education as well as those borrowers whose income and credit disqualify them for prime lending rates. Furthermore, among borrowers in the higher rate groups, black women seem to receive much more disparate treatment than black men. We conclude that, while the racial disparity in mortgage rates is widespread between black and white borrowers, it is the more financially vulnerable black women who suffer the most.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><a href="https://ia601406.us.archive.org/32/items/cfljuly1995-95-pdf/cfljuly1995-95-pdf.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff"><u>Discrimination in mortgage lending</u></span></span></span></span></a></p>
+
+<p style="text-align:justify"><span style="color:#ffffff"><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230504101842-1.png" style="height:252px; width:231px" /></span></p>
+
+<p><a href="https://www.pewresearch.org/fact-tank/2017/01/10/blacks-and-hispanics-face-extra-challenges-in-getting-home-loans/" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Blacks and Hispanics face extra challenges in getting home loans</u></span></span></span></a></p>
+
+<p><span style="color:#ffffff"><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230504101842-2.png" style="height:523px; width:421px" /><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230504101842-3.png" style="height:369px; width:641px" /></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff"><strong><em>Even controlling for credit score, black people are more likely to default on their mortgage, meaning it makes sense to accept fewer applicants.</em></strong></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:justify"><a href="https://sci-hub.ru/https://doi.org/10.1007/BF01099279" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff"><u>Race, redlining, and residential mortgage loan performance</u></span></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff"><em>&ldquo;In terms of the race or ethnic background of the borrower, results indicate a higher likelihood of default on the part of black households (compared to white households), while Hispanic, Asian, and American Indian or Alaskan native households are, for the most part, statistically indistinguishable from white borrowers with respect to default risk.&rdquo;</em></span></span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><a href="https://www.federalreserve.gov/boarddocs/rptcongress/creditscore/creditscore.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Report to the Congress on Credit Scoring and Its Effects on the Availability and Affordability of Credit</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;Consistently, across all three credit scores and all five performance measures, blacks, single individuals, individuals residing in lower-income or predominantly minority census tracts show consistently higher incidences of bad performance than would be predicted by the credit scores.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;The data also track the performance difference for each loan category by creditscore group. In almost every category, blacks show a higher incidence of default than non-Hispanic white borrowers, although differences are, in some cases, small. However, two product areas, auto loans from finance companies and credit card loans, show consistently higher and larger default rates for blacks than for non-Hispanic white borrowers for all credit-score quintiles.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff"><strong><em>As for mortgage costs, these completely go away when accounting for differences in discount points, which black borrowers pay fewer of. On net, mortgage costs appear to be identical.</em></strong></span></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:justify"><a href="https://academic.oup.com/rfs/article/34/2/763/5827007#226627786" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Do Minorities Pay More for Mortgages?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds gaps by race and ethnicity in interest rates which are offset by differences in discount points</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Black and hispanic borrowers pay fewer discount points</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Black and hispanic borrowers face a point rate schedule equal to that of white borrowers, although they sort to different locations on that schedule</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;In other words, lenders compensate minority and white borrowers equally when they select a higher interest rate, across the entire range of interest rates.&rdquo;</em></span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">There were no differences in total fees by race or ethnicity</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Further evidence that whatever discrimination occurs is statistical discrimination comes from the fact that profits are equal or less from black borrowers compared to white borrowers, suggesting that black people are not being systematically disadvantaged from the lending policy.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p style="text-align:justify"><a href="https://www.jstor.org/stable/25764804" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff"><u>What&#39;s in a Picture? Evidence of Discrimination from Prosper.com</u></span></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><span style="background-color:#ffffff">While loan discrimination occurs against blacks, lenders still earn a lower net return for loans to blacks compared to loans to whites</span></span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><span style="color:#ffffff"><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230504101842-4.png" style="height:216px; width:659px" /></span></p>
+
+<p style="text-align:justify"><a href="https://academic.oup.com/rfs/article/34/2/763/5827007#226627786" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Do Minorities Pay More for Mortgages?</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Lenders were found to earn slightly higher revenue and higher profit on mortgages from minorities people, but not because the lenders charged higher prices to minority borrowers but because they are able to extract higher margins from borrowers regardless of race and ethnicity who want lower upfront costs.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>Further Information:</em></span></span></span></p>
+
+<p><a href="https://www.tandfonline.com/doi/abs/10.1111/j.1467-8306.1979.tb01253.x" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>REDLINING AND MORTGAGE LENDING IN SACRAMENTO</u></span></span></span></a></p>
+
+<p><a href="https://www.bostonfed.org/publications/research-department-working-paper/1992/mortgage-lending-in-boston-interpreting-hmda-data.aspx" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Mortgage Lending in Boston: Interpreting HMDA Data</u></span></span></span></a></p>
+
+<p><a href="https://www.urban.org/sites/default/files/publication/66151/309090-Mortgage-Lending-Discrimination.PDF" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Mortgage Lending Discrimination: A Review of Existing Evidence Mortgage Lending</u></span></span></span></a></p>
+
+<p><a href="https://www.huduser.gov/portal/Publications/pdf/HUD-514_HDS2012.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>HOUSING DISCRIMINATION AGAINST RACIAL AND ETHNIC MINORITIES 2012</u></span></span></span></a></p>
+
+<p style="text-align:justify"><a href="https://sci-hub.ru/https://doi.org/10.1016/S0094-1190(02)00508-9" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Redlining, the Community Reinvestment Act, and private mortgage insurance</u></span></span></span></a></p>
+
+<h3><span style="color:#ffffff"><span style="font-size:13.999999999999998pt"><span style="font-family:Arial"><strong>Rental Discrimination</strong></span></span></span></h3>
+
+<p>&nbsp;</p>
+
+<p style="text-align:justify"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>There is also discrimination in the rental housing market, although it appears that much of it is due to statistical discrimination as well.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.tandfonline.com/doi/full/10.1080/1369183X.2018.1489223" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Closed doors everywhere? A meta-analysis of field experiments on ethnic discrimination in rental housing markets</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>&ldquo;this article provides a quantitative meta-analysis of field experiments (in person audits and correspondence tests) that were run over the last four decades in the United States, Canada and Europe (N&thinsp;=&thinsp;71). Special focus is given to a possible inflation of effect sizes by publication bias; to time trends; and to evidence for statistical discrimination. Taken together, nearly all experiments document the occurrence of ethnic discrimination. Effect sizes are inflated by publication bias, but there is still substantial evidence left once the bias is removed. The analysis reveals a consistent decline in the extent of discrimination over time, from moderate levels of discrimination in the 1970s and 1980s, up to only small but still statistically significant levels in the 1990s and 2000s. A significant part of the discriminatory behaviour can be attributed to missing information about the social status of applicants, which supports theories on statistical discrimination.&rdquo;</em></span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>Experimental research does show that race affects a person&rsquo;s ability to view apartments, independent of voucher status.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.suffolk.edu/-/media/suffolk/documents/news/2020/law-news/rental_housing_study_july2020.pdf?la=en&amp;hash=B0FFF5916ECA23DFD054170DA223780EDA571241" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Qualified Renters Need Not Apply Race and Voucher Discrimination in the Metro Boston Rental Housing Market</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Looks at how race and voucher status affects people&rsquo;s ability to view apartments</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds that substantial discrimination exists, which primarily negatively affects black people</span></span></span></li>
+</ul>
+
+<p><span style="color:#ffffff"><img src="https://ckeditor.com/apps/ckfinder/userfiles/files/image-20230504101842-5.png" style="height:372px; width:339px" /></span></p>
+
+<p>&nbsp;</p>
+
+</div>
+</body>
+</html>
