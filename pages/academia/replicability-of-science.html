@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+body {
+  color: white;
+  max-width: 1200px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #313131;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color:#36393f;">
+<div class="article">
+<div class="sidenav">
+  <a href="https://pyrublaze.github.io" style="font-size:12px">Home</a>
+</div>
+
+<h2><span style="color:#ffffff"><span style="font-size:16pt"><span style="font-family:Arial"><strong>Replicability in Science</strong></span></span></span></h2>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><strong><em>There exists a replicability crisis in science, particularly in the social sciences. Still, replicability varies between subsets of the social sciences. The degree to which a publication or finding is replicable can in fact be predicted well by scientists, but are published by journals because they are more interesting. Journal prestige in fact is negatively correlated to replicability. This appears to be due to intense competition and time pressure.</em></strong></span></span></span></p>
+
+<p>&nbsp;</p>
+
+<p><a href="https://www.science.org/doi/10.1126/science.aac4716" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Estimating the reproducibility of psychological science</u></span></span></span></a></p>
+
+<p><a href="https://www.science.org/doi/10.1126/science.aaf0918" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Evaluating replicability of laboratory experiments in economics</u></span></span></span></a></p>
+
+<p><a href="https://www.researchgate.net/publication/325216701_Estimating_the_Reproducibility_of_Experimental_Philosophy" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Estimating the Reproducibility of Experimental Philosophy</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Finds low replicability of findings in the social sciences</span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><a href="https://sci-hub.ru/https://doi.org/10.1126/sciadv.abd1705" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Nonreplicable publications are cited more than replicable ones</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Nonreplicable publications are cited more than replicable ones</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">The degree to which a publication is replicable can be predicted well by scientists</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Journals likely publish nonreplicable findings because they are more interesting</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This potentially also explains why they are cited more</span></span></span></li>
+</ul>
+
+<p><a href="https://psyarxiv.com/ytsvw" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Effect Sizes, Power, and Biases in Intelligence Research: A Meta-Meta-Analysis</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Intelligence research shows signs of low power and publication bias, but less so than many other scientific fields</span></span></span></li>
+</ul>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367316/pdf/rsos160254.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Low statistical power in biomedical science: a review of three human research domains</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Studies in the biomedical sciences tend to have low statistical power</span></span></span></li>
+</ul>
+
+<p><a href="https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.2000797&amp;type=printable" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Empirical assessment of published effect sizes and power in the recent cognitive neuroscience and psychology literature</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">There is a low replication in psychology and neuroscience</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Journal impact factor is negatively correlated with study power</span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><a href="https://sci-hub.ru/https://doi.org/10.3389/fnhum.2018.00037" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Prestigious science journals struggle to reach even average reliability</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Research suggests that journal rank is negatively associated with the reliability of research findings.</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">This can erode trust in science over time</span></span></span></li>
+</ul>
+
+<p><a href="https://sci-hub.se/https://doi.org/10.1038/s41562-018-0399-z" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">There is poor reproducibility of social science experiments</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">However, peer beliefs of replicability are strongly related to actual replicability, suggesting academics can predict which results are replicable.</span></span></span></li>
+</ul>
+
+<p style="text-align:justify"><a href="https://sci-hub.ru/https://doi.org/10.1038/533452a" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Reproducibility crisis</u></span></span></span></a></p>
+
+<ul>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">The vast majority of researchers believe there is a reproducibility crisis</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Most researchers in a variety of fields have experienced failure to reproduce results</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Many top rated factors which contribute to it relate to intense competition and time pressure</span></span></span></li>
+	<li style="list-style-type:disc"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial">Although only a small proportion of researchers tried to publish replication attempts, many had their papers accepted.</span></span></span></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><em>Further Information:</em></span></span></span></p>
+
+<p><a href="https://sci-hub.ru/https://doi.org/10.1177/0956797619831612" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>How Replicable Are Links Between Personality Traits and Consequential Life Outcomes? The Life Outcomes of Personality Replication Project</u></span></span></span></a></p>
+
+<p><a href="https://www.nature.com/articles/nrd3439-c1.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Believe it or not: how much can we rely on published data on potential drug targets?</u></span></span></span></a></p>
+
+<p><a href="https://www.gwern.net/docs/sociology/2019-lortieforgues.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Rigorous Large-Scale Educational RCTs Are Often Uninformative: Should We Be Concerned?</u></span></span></span></a></p>
+
+<p style="text-align:justify"><a href="https://sci-hub.ru/https://doi.org/10.1016/j.cortex.2014.11.019" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>A purely confirmatory replication study of structural brain-behavior correlations</u></span></span></span></a></p>
+
+<p style="text-align:justify"><a href="https://core.ac.uk/download/pdf/26001642.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>On the reproducibility of science: unique identification of research resources in the biomedical literature</u></span></span></span></a></p>
+
+<p style="text-align:justify"><a href="https://www.nature.com/articles/483531a.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Raise standards for preclinical cancer research</u></span></span></span></a></p>
+
+<p><a href="https://www.nature.com/articles/nrn3475.pdf" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Power failure: why small sample size undermines the reliability of neuroscience</u></span></span></span></a></p>
+
+<p><a href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124" style="text-decoration:none"><span style="color:#ffffff"><span style="font-size:10pt"><span style="font-family:Arial"><u>Why Most Published Research Findings Are False</u></span></span></span></a></p>
+
+<p><br />
+&nbsp;</p>
+
+</div>
+</body>
+</html>
