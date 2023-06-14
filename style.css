@@ -158,3 +158,21 @@ div.big {
     text-align: center;
     background-color:#787878;
 }
+
+h3 a:hover {
+    text-decoration: none;
+}
+
+
+h3 a:active {
+  text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: none;
+}
+
+
+h1 a:active {
+  text-decoration: none;
+}
