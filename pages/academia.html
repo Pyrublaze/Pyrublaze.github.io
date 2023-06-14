@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet" href="style.css" />
+<style>
+body {
+  background-color:#2F2D2C;
+  color: white;
+  font-family: "Lato", sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+  }
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 120px; /* Same as the width of the sidenav */
+  font-size: 14px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: white;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+li {
+	line-height: 1.6
+}
+	
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #787878;
+  color: #444;
+  cursor: pointer;
+  padding: 8px;
+  max-width: 1200px;
+  border: none;
+  text-align: left;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: ;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: ;
+}
+
+table, th, td {
+  border:1px solid black;
+  border-color: #2F2D2C;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.article {
+	padding-left: 120px;
+}
+
+div.big {
+  line-height: 1.5;
+}
+
+.info td {
+    text-align: center;
+    background-color:#C25100;
+    padding-top: 20px;
+  	padding-right: 20px;
+  	padding-bottom: 20px;
+  	padding-left: 20px;
+}
+
+.subinfo td {
+    text-align: center;
+    background-color:#787878;
+    padding-top: 20px;
+  	padding-right: 20px;
+  	padding-bottom: 20px;
+  	padding-left: 20px;
+}
+
+h3 a:hover {
+    text-decoration: none;
+}
+
+
+h3 a:active {
+  text-decoration: none;
+}
+
+h1 a:hover {
+    text-decoration: none;
+}
+
+
+h1 a:active {
+  text-decoration: none;
+}
+
+li {
+	list-style: disc;
+}
+
+</style>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="pyrublaze.github.io">Home</a>
+  <a href="/about">About</a>
+</div>
+
+<div class="main">
+  <h2 id="Top"><u><a href="pyrublaze.github.io">Pyrublaze Research Base</a><img src="https://pbs.twimg.com/profile_images/1375270173301612551/3UPrvLOY_400x400.jpg" alt="alternatetext" width = "64" align="right"></u></h2>
+
+</br>  
+
+<hr>
+
+<h1>Misconduct, Mistakes, and Retractions in Academia</h1>
+
+<div class="subinfo">
+<table>
+<td>
+<p>
+    <b>Misconduct, mistakes, and retractions are common within academia, although getting precise estimates for its prevalence is difficult. Misconduct appears to be rising significantly, although it is not clear whether this is due to improved screening practices or changes in the number of publications which have research containing misconduct. Higher journal impact factor is positively associated with misconduct as well, although again it is not clear whether this is a screening issue or a publication quality issue. Much of this fraud appears to be deliberately done. Luckily, retractions which occur as a consequence of misconduct result in the author of the publication getting fewer citations in the future, suggesting there is a degree of self-correction which occurs in academia dealing with this. There are a variety of reasons why misconduct occurs. Much of this research suggests that academia can be fallible in this domain.</b>
+</p>
+</td>
+</table>
+</div>
+
+<p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0005738">How Many Scientists Fabricate and Falsify Research? A Systematic Review and Meta-Analysis of Survey Data</a></p>
+<ul>
+    <li>Meta-analysis and systematic review</li>
+    <li>Finds that 1.97% of scientists admit to have fabricated, falsified, or modified data or results at least once</li>
+    <li>Up to 33.7% admitted other questionable research practices</li>
+    <li>Misconduct was reported more frequently by medical/pharmacological researchers than others.</li>
+</ul>
+<p><a href="https://sci-hub.hkvisa.net/10.1098/rspa.2020.0538">Quotation errors in general science journals</a></p>
+<ul>
+    <li>Looks at 250 random citations in high-impact general science journals</li>
+    <li>Finds a quotation error rate of 25%</li>
+    <li>This result is similar with that of other studies studying similar fields</li>
+</ul>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1073/pnas.1212247109">Misconduct accounts for the majority of retracted scientific publications</a></p>
+<ul>
+    <li>Review of all 2047 retracted biomedical and life-science research articles indexed as retracted by PubMed on a specific day</li>
+    <li>Only 21.3% of retractions were attributable to error</li>
+    <li>67.4% were attributable to misconduct, including fraud or suspected fraud (43.4%), duplicate publication (14.2%) and plagiarism (9.8%)</li>
+    <li>Percentage of scientific articles retracted due to fraud has increased tenfold since 1975</li>
+</ul>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1136/jme.2010.040923">Retractions in the scientific literature: is the incidence of research fraud increasing?</a></p>
+<ul>
+    <li>Finds 26.6% of retracted English language research papers examined were retracted for fraud</li>
+    <li>Levels of misconduct appear to be increasing, this could be due to fraud increasing or more policing efforts of the literature to detect fraud</li>
+</ul>
+<p><a href="https://www.mdpi.com/2304-6775/1/3/87">Research Misconduct&mdash;Definitions, Manifestations and Extent</a></p>
+<ul>
+    <li>Around 0.01% of publications according to multiple studies have been found to have misconduct involved</li>
+    <li>However, some doubt this as it is only those which are confirmed to be misconduct counted in estimates. There are many instances which may not be detected, or where intent is not proven to be malicious, or where the instance is not documented</li>
+</ul>
+<p><a href="https://www.nature.com/articles/srep03146">The Retraction Penalty: Evidence from the Web of Science</a></p>
+<ul>
+    <li>A single retraction is found to result in substantial falls in citations for the author&rsquo;s prior body of work</li>
+    <li>However, this effect disappears when authors self-report the error</li>
+</ul>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1128/IAI.05661-11">Retracted science and the retraction index</a></p>
+<ul>
+    <li>Higher journal impact factor is correlated with more retractions</li>
+    <li>This could be due to more risk-taking done by researchers who wish to publish in more well-known journals, or the desire of high-impact journals to have clear and definitive results could create incentives for misconduct, or there are just better screening processes.</li>
+</ul>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1136/jme.2010.038125">Retractions in the scientific literature: do authors deliberately commit research fraud?</a></p>
+<ul>
+    <li>Many publications which are retracted were authored by repeat offenders, suggesting authors do deliberately commit research fraud</li>
+</ul>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1007/s11948-007-9045-2">Causal factors implicated in research misconduct: Evidence from ORI case files</a></p>
+<ul>
+    <li>Analysis of themes from closed case files then analyzed through cluster analysis revealed multiple themes for causes of research misconduct, including personal and professional stressors, organizational climate, job insecurities, rationalizations, personal inhibitions, and personality factors</li>
+</ul>
+<p>&nbsp;</p>
+<p>Further Information:</p>
+<p><a href="https://link.springer.com/article/10.1007/s11192-012-0781-y">Duplicate and fake publications in the scientific literature: how many SCIgen papers in computer science?</a></p>
+
+<p><a href="https://sci-hub.se/https://doi.org/10.1353/rhe.1995.0007">Academic Misconduct and Values: The Department&rsquo;s Influence</a> (LOOK INTO LATER)</p>
+
+<h2>Political Leanings of Academics</h2>
+<p>&nbsp;</p>
+<p>Academics lean overwhelmingly left today, although in the past it has been more balanced. This is partially due to differences in intelligence and openness to experience, although this cannot explain all of it. Part of it is also due to self-selection, a hostile climate for right-wingers, and discrimination of right-wingers. Viewpoint diversity promotes creativity, discovery, and problem-solving, while viewpoint homogeneity promotes confirmation bias and conformity, so having more of a balance of viewpoints will help progress social science. However, it does not appear that this will affect the political orientation of students, who&rsquo;s political ideology doesn&rsquo;t change with faculty ideology and instead reflects trends of the broader population in their age group.</p>
+<p>&nbsp;</p>
+<p><a href="https://econjwatch.org/articles/faculty-voter-registration-in-economics-history-journalism-communications-law-and-psychology" style="text-decoration:none;">Faculty Voter Registration in Economics, History, Journalism, Law, and Psychology</a></p>
+<ul>
+    <li>Finds that there are overwhelming democrat:republican voter ratios in a variety of social science disciplines</li>
+    <li>Moreover, the ratio is highest in the most prestigious departments.</li>
+</ul>
+<p><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.120.9897&rep=rep1&type=pdf" style="text-decoration:none;">How politically diverse are the social sciences and humanities? Survey evidence from six fields</a></p>
+<ul>
+    <li>In the social sciences and humanities, faculty are heavily skewed towards being democratic over republican</li>
+</ul>
+<p><a href="https://sci-hub.hkvisa.net/10.1017/s0140525x15000035" style="text-decoration:none;">Political diversity will improve social psychological science</a></p>
+<ul>
+    <li>Diversity of viewpoints enhances creativity, discovery, and problem-solving, and political diversity is lacking in social psychology.</li>
+    <li>This is a new phenomenon which occurred over the last 50 years, and can result in the embedding of liberal values into research, promoting confirmation bias</li>
+    <li>The underrepresentation of non-liberals appears to be due to a combination of self-selection, hostile climate, and discrimination</li>
+</ul>
+<p><a href="https://www.adamsmith.org/research/lackademia-why-do-academics-lean-left" style="text-decoration:none;">LACKADEMIA: WHY DO ACADEMICS LEAN LEFT?</a></p>
+<ul>
+    <li>Left skew of academia cannot be primarily explained by intelligence, although may be partly explained by openness to experience</li>
+    <li>There are some other notable and plausible explanations:<ul>
+            <li>Typing of academia as left-leaning, which pushes non-leftists out of academia</li>
+            <li>Pressures to conform to the prevailing ideology</li>
+            <li>Non-conformity on the part of academics going against the reality that they are paid less than those of their intelligence level in other areas</li>
+            <li>There is evidence that left-leaning academics are willing to discriminate against conservatives and that conservatives which are in academia are significantly more cited and productive than their leftist counterparts, suggesting that they are held to a higher standard.</li>
+        </ul>
+    </li>
+</ul>
+<p><a href="https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/abs/indoctrination-u-faculty-ideology-and-changes-in-student-political-orientation/25ABD9B1A3577F27B5659941CD52D6C9" style="text-decoration:none;">Indoctrination U.? Faculty Ideology and Changes in Student Political Orientation</a></p>
+<ul>
+    <li>While student political ideology changes during their course in university, it does not appear to change on the basis of faculty ideology and is consistent with the general population in their age range.</li>
+</ul>
+<p><a href="https://psyarxiv.com/qpn57/" style="text-decoration:none;">Political Bias in the Social Sciences: A Critical, Theoretical, and Empirical Review</a></p>
+<ul>
+    <li>Literature review</li>
+    <li>There is an overwhelmingly left skew in academia</li>
+    <li>Political bias of researchers is not necessarily bad when it is counterbalanced by differing political views of different researchers, but when there is an overwhelming skew in one direction it can produce biased results</li>
+    <li>It is not clear what the threshold for ideological diversity is to ensure Mertonian skepticism, although wherever that line is it is clear it has been passed</li>
+    <li>One significant argument that normal academic processes protect political biases is that political leaning of an article has no relationship with its replicability</li>
+    <li>However, education and scientific literacy increase polarization on controversial science topics presumably because people look for evidence that bolsters what they already believe</li>
+    <li>Moreover, there are a wide variety of issues identified in the social sciences, including the replication crisis.</li>
+    <li>Peer review is also unreliable, it does not insure against poor or biased science</li>
+    <li>Merton&rsquo;s norms of science may be touted, although it&rsquo;s not obvious that they&rsquo;re actually practiced. For example, the fusion of activism with scientific investigation and the statement that certain publications are &ldquo;harmful&rdquo; violates the disinterestedness norm</li>
+    <li>Universalism is violated when &ldquo;lived experiences&rdquo; of minority groups are given precedence</li>
+    <li>The study on political leaning and replicability ignores how political bias isn&rsquo;t argued to be in that domain, but rather in methods, interpretation, citation, and canonization</li>
+    <li>Authors of this review believe the conclusion of the study is probably valid, but the study is too biased to actually demonstrate it, for a variety of reasons discussed</li>
+    <li>This paper presents two complimentary models on political bias in academia:</li>
+    <li>Pipeline - Left-leaning activists select into academia and make the space more hostile to non-leftists, purging those with different views.&nbsp;<ul>
+            <li>Research suggests many academics endorse discriminating against their political opponents, which can contribute to this.&nbsp;</li>
+            <li>Disproportionate faculty awards go to those on the left, even controlling for achievements, primarily publications.&nbsp;</li>
+            <li>Targeting sanctions initiated by scholars and graduate students are overwhelmingly initiated by the left.&nbsp;</li>
+            <li>Many academics openly declate hostility to conservatives.&nbsp;</li>
+            <li>Thus, the belief among conservative professors that leaking their politics risks harming their careers is likely correct.&nbsp;</li>
+            <li>Left-wing authoritarianism is psychologically characterized by three things: intolerance, censorship, and aggression, all directed at one&rsquo;s political opponents</li>
+            <li>This can manifest as social vigilanteism</li>
+            <li>Given that academia is overwhelmingly left-leaning, it is likely that this is relatively prevalent in academia even if high scores of left-wing authoritarianism are uncommon in the general population.</li>
+            <li>Success in academia depends on approval from others, meaning that left-wing academia can be self-perpetuating</li>
+            <li>If the social sciences are dominated by a left-leaning bias, it can appear much more objective than it actually is to an outsider</li>
+            <li>Therefore, even when hundreds of studies say the same thing, because of the erosion of Mertonian norms it can still fail to justify the conclusion those studies reach</li>
+        </ul>
+    </li>
+    <li>Wheel model - Political bias manifests in the scientific enterprise to undercut validity and credibility<ul>
+            <li>This is done through manipulation of questions asked, measurement, interpretations, what gets cited, canonization, suppression, and discrimination</li>
+        </ul>
+    </li>
+    <li>It does not seem likely that anything can meaningfully be done about all of this, as many major professional psychology organizations appear to support activism at this point in time</li>
+</ul>
+<p>&nbsp;</p>
+<p>Further Information:</p>
+<p><a href="https://www.nas.org/blogs/article/partisan-registration-and-contributions-of-faculty-in-flagship-colleges" style="text-decoration:none;">Partisan Registration and Contributions of Faculty in Flagship Colleges</a></p>
+<p><a href="https://www.nas.org/academic-questions/31/2/homogenous_the_political_affiliations_of_elite_liberal_arts_college_faculty" style="text-decoration:none;">Homogenous: The Political Affiliations of Elite Liberal Arts College Faculty</a></p>
+<p><a href="https://sites.rutgers.edu/lee-jussim/wp-content/uploads/sites/135/2020/04/Honeycutt-Jussim-2020-A-Model-of-Political-Bias-in-Social-Science-Research.pdf" style="text-decoration:none;">A Model of Political Bias in Social Science Research</a></p>
+<p><a href="https://www.tandfonline.com/doi/abs/10.1080/1047840X.2020.1724725" style="text-decoration:none;">Without Contraries is no Progression</a></p>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1525/jer.2007.2.4.3" style="text-decoration:none;">Normative dissonance in science: Results from a national survey of US scientists</a></p>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1080/01973533.2014.960080" style="text-decoration:none;">&ldquo;Soft&rdquo; versus &ldquo;hard&rdquo; psychological science: Biased evaluations of scientific evidence that threatens or supports a strongly held political identity</a></p>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1007/s10699-015-9421-3" style="text-decoration:none;">Science is not always &ldquo;self-correcting</a></p>
+<p><a href="https://www.researchgate.net/publication/333961974_Do_Ideologically_Driven_Scientific_Agendas_Impede_the_Understanding_and_Acceptance_of_Evolutionary_Principles_in_Social_Psychology">Do Ideologically Driven Scientific Agendas Impede the Understanding and Acceptance of Evolutionary Principles in Social Psychology?</a></p>
+
+<h2>Replicability in Science</h2>
+<p>&nbsp;</p>
+<p>There exists a replicability crisis in science, particularly in the social sciences. Still, replicability varies between subsets of the social sciences. The degree to which a publication or finding is replicable can in fact be predicted well by scientists, but are published by journals because they are more interesting. Journal prestige in fact is negatively correlated to replicability. This appears to be due to intense competition and time pressure.</p>
+<p>&nbsp;</p>
+<p><a href="https://www.science.org/doi/10.1126/science.aac4716" style="text-decoration:none;">Estimating the reproducibility of psychological science</a></p>
+<p><a href="https://www.science.org/doi/10.1126/science.aaf0918" style="text-decoration:none;">Evaluating replicability of laboratory experiments in economics</a></p>
+<p><a href="https://www.researchgate.net/publication/325216701_Estimating_the_Reproducibility_of_Experimental_Philosophy" style="text-decoration:none;">Estimating the Reproducibility of Experimental Philosophy</a></p>
+<ul>
+    <li>Finds low replicability of findings in the social sciences</li>
+</ul>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1126/sciadv.abd1705" style="text-decoration:none;">Nonreplicable publications are cited more than replicable ones</a></p>
+<ul>
+    <li>Nonreplicable publications are cited more than replicable ones</li>
+    <li>The degree to which a publication is replicable can be predicted well by scientists</li>
+    <li>Journals likely publish nonreplicable findings because they are more interesting</li>
+    <li>This potentially also explains why they are cited more</li>
+</ul>
+<p><a href="https://psyarxiv.com/ytsvw" style="text-decoration:none;">Effect Sizes, Power, and Biases in Intelligence Research: A Meta-Meta-Analysis</a></p>
+<ul>
+    <li>Intelligence research shows signs of low power and publication bias, but less so than many other scientific fields</li>
+</ul>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367316/pdf/rsos160254.pdf" style="text-decoration:none;">Low statistical power in biomedical science: a review of three human research domains</a></p>
+<ul>
+    <li>Studies in the biomedical sciences tend to have low statistical power</li>
+</ul>
+<p><a href="https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.2000797&type=printable" style="text-decoration:none;">Empirical assessment of published effect sizes and power in the recent cognitive neuroscience and psychology literature</a></p>
+<ul>
+    <li>There is a low replication in psychology and neuroscience</li>
+    <li>Journal impact factor is negatively correlated with study power</li>
+</ul>
+<p><a href="https://sci-hub.ru/https://doi.org/10.3389/fnhum.2018.00037" style="text-decoration:none;">Prestigious science journals struggle to reach even average reliability</a></p>
+<ul>
+    <li>Research suggests that journal rank is negatively associated with the reliability of research findings.</li>
+    <li>This can erode trust in science over time</li>
+</ul>
+<p><a href="https://sci-hub.se/https://doi.org/10.1038/s41562-018-0399-z" style="text-decoration:none;">Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015</a></p>
+<ul>
+    <li>There is poor reproducibility of social science experiments</li>
+    <li>However, peer beliefs of replicability are strongly related to actual replicability, suggesting academics can predict which results are replicable.</li>
+</ul>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1038/533452a" style="text-decoration:none;">Reproducibility crisis</a></p>
+<ul>
+    <li>The vast majority of researchers believe there is a reproducibility crisis</li>
+    <li>Most researchers in a variety of fields have experienced failure to reproduce results</li>
+    <li>Many top rated factors which contribute to it relate to intense competition and time pressure</li>
+    <li>Although only a small proportion of researchers tried to publish replication attempts, many had their papers accepted.</li>
+</ul>
+<p>&nbsp;</p>
+<p>Further Information:</p>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1177/0956797619831612" style="text-decoration:none;">How Replicable Are Links Between Personality Traits and Consequential Life Outcomes? The Life Outcomes of Personality Replication Project</a></p>
+<p><a href="https://www.nature.com/articles/nrd3439-c1.pdf" style="text-decoration:none;">Believe it or not: how much can we rely on published data on potential drug targets?</a></p>
+<p><a href="https://www.gwern.net/docs/sociology/2019-lortieforgues.pdf" style="text-decoration:none;">Rigorous Large-Scale Educational RCTs Are Often Uninformative: Should We Be Concerned?</a></p>
+<p><a href="https://sci-hub.ru/https://doi.org/10.1016/j.cortex.2014.11.019" style="text-decoration:none;">A purely confirmatory replication study of structural brain-behavior correlations</a></p>
+<p><a href="https://core.ac.uk/download/pdf/26001642.pdf" style="text-decoration:none;">On the reproducibility of science: unique identification of research resources in the biomedical literature</a></p>
+<p><a href="https://www.nature.com/articles/483531a.pdf" style="text-decoration:none;">Raise standards for preclinical cancer research</a></p>
+<p><a href="https://www.nature.com/articles/nrn3475.pdf" style="text-decoration:none;">Power failure: why small sample size undermines the reliability of neuroscience</a></p>
+<p><a href="https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124" style="text-decoration:none;">Why Most Published Research Findings Are False</a></p>
+<p><br> </p>
+
+<h2>Statistical Competence of Academics</h2>
+<p>&nbsp;</p>
+<p>Academics are relatively lacking in their knowledge of data analysis and their ability to accurately interpret statistical information.</p>
+<p>&nbsp;</p>
+<p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1080/00207590244000250" style="text-decoration:none;">Even statisticians are not immune to misinterpretations of Null Hypothesis Significance Tests</a></p>
+<ul>
+    <li>Looks at a sample of psychological researchers and applied statisticians</li>
+    <li>Finds that statisticians are not immune to misinterpretations of null hypothesis significance tests, and it is hard to conceive of consensus among statisticians due to this</li>
+    <li>Beyond this, problems can be seen in the misuses of judgmental adjustments that try to overcome the inherent shortcomings of null hypothesis significance tests.</li>
+</ul>
+<p><a href="https://www.researchgate.net/publication/283175190_Blinding_Us_to_the_Obvious_The_Effect_of_Statistical_Training_on_the_Evaluation_of_Evidence" style="text-decoration:none;">Blinding Us to the Obvious? The Effect of Statistical Training on the Evaluation of Evidence</a></p>
+<ul>
+    <li>Researchers tend to evaluate statistical significance as dichotomous as opposed to continuous, which can lead to undervaluing of statistically insignificant evidence</li>
+</ul>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/24420726/" style="text-decoration:none;">Robust misinterpretation of confidence intervals</a></p>
+<ul>
+    <li>Researchers are not much better than students in interpreting confidence intervals, and do so very poorly</li>
+</ul>
+<p><a href="https://www.researchgate.net/publication/235363101_Contemporary_Issues_in_the_Analysis_of_Data_A_Survey_of_551_Psychologists" style="text-decoration:none;">Contemporary Issues in the Analysis of Data: A Survey of 551 Psychologists</a></p>
+<ul>
+    <li>Although experienced researchers can correctly answer complex data analysis questions at a chance better than average, they appear to misunderstand a lot of fundamental concepts in data analysis.</li>
+</ul>
+<p>&nbsp;</p>
+<p>Further Information:</p>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/6457103/" style="text-decoration:none;">Physician&apos;s use of probabilistic information in a real clinical setting</a></p>
+<p><a href="https://www.researchgate.net/publication/27262211_Misinterpretations_of_Significance_A_Problem_Students_Share_with_Their_Teachers" style="text-decoration:none;">Misinterpretations of Significance: A Problem Students Share with Their Teachers?</a></p>
+<p><a href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D1520CFBFEB2C282E93484057D84B6C6/S183449091900028Xa.pdf/beyond_psychology_prevalence_of_p_value_and_confidence_interval_misinterpretation_across_different_fields.pdf" style="text-decoration:none;">Beyond psychology: prevalence of p value and confidence interval misinterpretation across different fields</a></p>
+<p>&nbsp;</p>
+
+</div>
+</div>
+</body>
+</html>
